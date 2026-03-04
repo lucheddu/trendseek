@@ -33,7 +33,10 @@ if (rawSlugs) {
       <!-- ──── Main column ──── -->
       <main class="article-main">
         <!-- Leaderboard ad just below header -->
-        <div class="ad-slot ad-slot--leaderboard">[AdSense – Leaderboard 728×90]</div>
+        <div class="ad-slot ad-slot--leaderboard">
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="8985248896" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
 
         <!-- Hero image (inside column, contextual) -->
         {heroImage && (
@@ -60,12 +63,18 @@ if (rawSlugs) {
         </div>
 
         <!-- Bottom ad -->
-        <div class="ad-slot ad-slot--in-article">[AdSense – Bottom Rectangle]</div>
+        <div class="ad-slot ad-slot--in-article">
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="3975155282" data-ad-format="fluid" data-ad-layout="in-article"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
       </main>
 
       <!-- ──── Sticky sidebar ──── -->
       <aside class="article-sidebar">
-        <div class="ad-slot ad-slot--sidebar">[AdSense – Sidebar 300×600]</div>
+        <div class="ad-slot ad-slot--sidebar">
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="3372520059" data-ad-format="vertical"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
       </aside>
     </div>
 
@@ -121,8 +130,16 @@ if (rawSlugs) {
           if (!el) return;
           const adDiv = document.createElement('div');
           adDiv.className = 'ad-slot ad-slot--in-article ad-inline';
-          adDiv.textContent = '[AdSense – In-Article]';
+          const ins = document.createElement('ins');
+          ins.className = 'adsbygoogle';
+          ins.style.display = 'block';
+          ins.dataset.adClient = 'ca-pub-6145328348550109';
+          ins.dataset.adSlot = '3975155282';
+          ins.dataset.adFormat = 'fluid';
+          ins.dataset.adLayout = 'in-article';
+          adDiv.appendChild(ins);
           el.after(adDiv);
+          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
         });
       });
     </script>
