@@ -1,0 +1,483 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+// Get all posts and sort newest-first
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+
+
+
+    <!-- Search + Tag cloud -->
+    <div class="search-area container">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search articles, topics, tags…"
+          autocomplete="off"
+          aria-label="Search articles"
+        />
+        <button id="search-clear" class="search-clear" aria-label="Clear search" style="display:none">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Tag cloud -->
+      <div class="tag-cloud" id="tag-cloud" role="list" aria-label="Filter by tag">
+        <button class="tag-pill active" data-tag="__all__" role="listitem">All</button>
+        {[...new Set(allPosts.flatMap(p => p.data.tags ?? []))].sort().map(tag => (
+          <button class="tag-pill" data-tag={tag} role="listitem">{tag}</button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Articles Grid -->
+    <main class="container" style="margin-top: 1.75rem;">
+      <!-- Ad slot leaderboard -->
+      <div class="ad-slot ad-slot--leaderboard">[AdSense – Leaderboard 728×90]</div>
+
+      <div id="posts-grid" class="posts-grid">
+        {allPosts.map(post => (
+          <article
+            class="card"
+            data-lang={post.data.lang ?? 'en'}
+            data-title={post.data.title.toLowerCase()}
+            data-desc={post.data.description.toLowerCase()}
+            data-tags={(post.data.tags ?? []).join(',').toLowerCase()}
+          >
+            {post.data.heroImage && (
+              <div class="card-image">
+                <a href={`/blog/${post.id}/`} tabindex="-1" aria-hidden="true">
+                  <img src={post.data.heroImage} alt={post.data.title} loading="lazy" />
+                </a>
+              </div>
+            )}
+            <div class="card-body">
+              <div class="card-top">
+                <span class="badge">{(post.data.lang ?? 'en').toUpperCase()}</span>
+                {(post.data.tags ?? []).length > 0 && (
+                  <div class="card-tags">
+                    {(post.data.tags ?? []).slice(0, 3).map(tag => (
+                      <span class="card-tag">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <h2 class="card-title">
+                <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+              </h2>
+              <p class="card-desc">{post.data.description}</p>
+              <div class="card-footer">
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })}
+                </time>
+                <a href={`/blog/${post.id}/`} class="read-more">
+                  Read Guide →
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <p id="no-results" class="no-results" style="display:none">
+        No results. Try a different search or tag.
+      </p>
+
+      <!-- Mid ad slot -->
+      <div class="ad-slot ad-slot--in-article" style="margin-top:3rem">[AdSense – Rectangle 336×280]</div>
+    </main>
+
+    <Footer />
+  </body>
+</html>
+
+<style>
+  /* ── Hero ────────────────────────────────────────────────────────────── */
+  .hero {
+    padding: 2.5rem 0 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(108,99,255,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-image-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+    border: 1px solid rgba(108,99,255,0.2);
+    /* Match the user-provided ultra-wide image */
+    aspect-ratio: 21 / 5;
+    background: var(--surface);
+  }
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ── Grid ────────────────────────────────────────────────────────────── */
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  /* ── Card ────────────────────────────────────────────────────────────── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+    border-color: rgba(108,99,255,0.4);
+  }
+  /* Card hero image */
+  .card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+  .card:hover .card-image img { transform: scale(1.04); }
+
+  .card-body { padding: 1.5rem; display: flex; flex-direction: column; }
+  .card .badge { margin-bottom: 1rem; }
+  .card-title {
+    font-size: 1.15rem;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.65rem;
+    flex: 1;
+  }
+  .card-title a { color: #fff; transition: color var(--transition); }
+  .card-title a:hover { color: var(--accent); }
+  .card-desc {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+  }
+  .card-footer time { color: var(--text-muted); font-size: 0.8rem; }
+  .read-more {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    transition: gap var(--transition);
+  }
+  .read-more:hover { color: #9c96ff; }
+  .no-results {
+    text-align: center;
+    color: var(--text-muted);
+    margin-top: 2rem;
+    font-style: italic;
+  }
+
+  main { padding-bottom: 4rem; }
+
+  /* ── Search Area ─────────────────────────────────────────────────────── */
+  .search-area {
+    padding: 0 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0 1rem;
+    transition: border-color var(--transition), box-shadow var(--transition);
+  }
+  .search-box:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(108,99,255,0.15);
+  }
+  .search-icon { color: var(--text-muted); flex-shrink: 0; }
+  #search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-size: 0.95rem;
+    font-family: inherit;
+    padding: 0.85rem 0.75rem;
+  }
+  #search-input::placeholder { color: var(--text-muted); }
+  .search-clear {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 4px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    transition: color var(--transition);
+  }
+  .search-clear:hover { color: var(--accent2); }
+
+  /* ── Tag Cloud ───────────────────────────────────────────────────────── */
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .tag-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3rem 0.85rem;
+    border-radius: 99px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    font-family: inherit;
+    transition: all var(--transition);
+  }
+  .tag-pill:hover { border-color: var(--accent); color: var(--accent); background: rgba(108,99,255,0.08); }
+  .tag-pill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* ── Card tag pills ──────────────────────────────────────────────────── */
+  .card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; gap: 0.5rem; flex-wrap: wrap; }
+  .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .card-tag {
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0.15rem 0.55rem;
+    border-radius: 99px;
+    background: rgba(108,99,255,0.12);
+    color: #a0a8ff;
+    border: 1px solid rgba(108,99,255,0.2);
+  }
+</style>
+
+<script>
+  // ── State ──────────────────────────────────────────────────────────────────
+  let activeLang   = 'en';
+  let activeTag    = '__all__';
+  let searchQuery  = '';
+
+  // ── i18n translations for UI strings ──────────────────────────────────────
+  const i18n: Record<string, Record<string, string>> = {
+    en: {
+      searchPlaceholder: 'Search articles, topics, tags…',
+      allTag:            'All',
+      readGuide:         'Read Guide →',
+      noResults:         'No results. Try a different search or tag.',
+    },
+    it: {
+      searchPlaceholder: 'Cerca articoli, argomenti, tag…',
+      allTag:            'Tutti',
+      readGuide:         'Leggi la Guida →',
+      noResults:         'Nessun risultato. Prova una ricerca o un tag diverso.',
+    },
+    es: {
+      searchPlaceholder: 'Buscar artículos, temas, tags…',
+      allTag:            'Todos',
+      readGuide:         'Leer Guía →',
+      noResults:         'Sin resultados. Prueba con otra búsqueda o etiqueta.',
+    },
+    fr: {
+      searchPlaceholder: 'Rechercher articles, sujets, tags…',
+      allTag:            'Tous',
+      readGuide:         'Lire le Guide →',
+      noResults:         'Aucun résultat. Essayez une autre recherche ou étiquette.',
+    },
+  };
+
+  function t(key: string): string {
+    return (i18n[activeLang] ?? i18n.en)[key] ?? i18n.en[key] ?? key;
+  }
+
+  function updateUIStrings() {
+    // Search placeholder
+    const searchEl = document.getElementById('search-input') as HTMLInputElement | null;
+    if (searchEl) searchEl.placeholder = t('searchPlaceholder');
+
+    // "All" tag pill
+    const allPill = document.querySelector<HTMLElement>('.tag-pill[data-tag="__all__"]');
+    if (allPill) allPill.textContent = t('allTag');
+
+    // "Read Guide" links
+    document.querySelectorAll<HTMLElement>('.read-more').forEach(el => {
+      el.textContent = t('readGuide');
+    });
+
+    // "No results" message
+    const noEl = document.getElementById('no-results');
+    if (noEl) noEl.textContent = t('noResults');
+  }
+
+  // ── Geo map ────────────────────────────────────────────────────────────────
+  const countryLang: Record<string, string> = {
+    IT: 'it',
+    ES: 'es', MX: 'es', AR: 'es', CO: 'es', CL: 'es', PE: 'es',
+    VE: 'es', EC: 'es', BO: 'es', PY: 'es', UY: 'es', DO: 'es',
+    HN: 'es', GT: 'es', SV: 'es', NI: 'es', CR: 'es', CU: 'es', PA: 'es',
+    FR: 'fr', BE: 'fr', CH: 'fr', LU: 'fr', MC: 'fr',
+    SN: 'fr', CI: 'fr', CM: 'fr', MG: 'fr',
+  };
+
+  // ── Rebuild tag cloud based on active language ─────────────────────────────
+  function rebuildTagCloud() {
+    // Collect tags that exist in at least one card of the active language
+    const availableTags = new Set<string>();
+    document.querySelectorAll<HTMLElement>('.card').forEach(card => {
+      if (card.dataset.lang !== activeLang) return;
+      (card.dataset.tags ?? '').split(',').forEach(t => {
+        const tag = t.trim();
+        if (tag) availableTags.add(tag);
+      });
+    });
+
+    // Show / hide each tag pill (keep "All" always visible)
+    document.querySelectorAll<HTMLElement>('.tag-pill').forEach(pill => {
+      const tag = pill.dataset.tag ?? '';
+      if (tag === '__all__') return; // always visible
+      const visible = availableTags.has(tag);
+      pill.style.display = visible ? '' : 'none';
+    });
+
+    // If the currently active tag is no longer available, reset to "All"
+    if (activeTag !== '__all__' && !availableTags.has(activeTag)) {
+      activeTag = '__all__';
+      document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+      document.querySelector<HTMLElement>('.tag-pill[data-tag="__all__"]')?.classList.add('active');
+    }
+  }
+
+  // ── Master filter ──────────────────────────────────────────────────────────
+  function applyFilters() {
+    const cards = document.querySelectorAll<HTMLElement>('.card');
+    let shown = 0;
+    const q = searchQuery.trim().toLowerCase();
+
+    cards.forEach(card => {
+      const langOk = card.dataset.lang === activeLang;
+      const tagOk  = activeTag === '__all__'
+        || (card.dataset.tags ?? '').split(',').some(t => t.trim() === activeTag);
+      const textOk = q === ''
+        || (card.dataset.title ?? '').includes(q)
+        || (card.dataset.desc  ?? '').includes(q)
+        || (card.dataset.tags  ?? '').includes(q);
+
+      const visible = langOk && tagOk && textOk;
+      card.style.display = visible ? '' : 'none';
+      if (visible) shown++;
+    });
+
+    const noEl = document.getElementById('no-results');
+    if (noEl) noEl.style.display = shown === 0 ? '' : 'none';
+  }
+
+  // ── Search input ───────────────────────────────────────────────────────────
+  const searchInput = document.getElementById('search-input') as HTMLInputElement | null;
+  const clearBtn    = document.getElementById('search-clear') as HTMLButtonElement | null;
+
+  searchInput?.addEventListener('input', () => {
+    searchQuery = searchInput!.value;
+    if (clearBtn) clearBtn.style.display = searchQuery ? '' : 'none';
+    applyFilters();
+  });
+  clearBtn?.addEventListener('click', () => {
+    if (searchInput) searchInput.value = '';
+    searchQuery = '';
+    if (clearBtn) clearBtn.style.display = 'none';
+    applyFilters();
+  });
+
+  // ── Tag cloud ──────────────────────────────────────────────────────────────
+  document.getElementById('tag-cloud')?.addEventListener('click', e => {
+    const pill = (e.target as HTMLElement).closest<HTMLElement>('.tag-pill');
+    if (!pill) return;
+    document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    activeTag = pill.dataset.tag ?? '__all__';
+    applyFilters();
+  });
+
+  // ── Geolocation language detection ─────────────────────────────────────────
+  const urlLang = new URLSearchParams(window.location.search).get('lang');
+
+  async function detectLang() {
+    if (urlLang) {
+      activeLang = urlLang;
+    } else {
+      try {
+        const r = await fetch('https://ipapi.co/json/', { signal: AbortSignal.timeout(3000) });
+        if (r.ok) {
+          const d = await r.json();
+          activeLang = countryLang[d.country_code as string] ?? 'en';
+        }
+      } catch { /* fallback en */ }
+    }
+    // Update the header flag image to match detected language
+    (window as any).__setHeaderLang?.(activeLang);
+    rebuildTagCloud();
+    updateUIStrings();
+    applyFilters();
+  }
+
+  detectLang();
+</script>
+
+
+
