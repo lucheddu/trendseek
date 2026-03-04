@@ -1,63 +1,78 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
->
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
-	</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title="About – TrendSeek" description="About TrendSeek: your source for in-depth analysis on trending topics in technology, finance, science, and economy." />
+  </head>
+  <body>
+    <Header />
+    <main class="container about-page">
+      <h1>About TrendSeek</h1>
 
-	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
-	</p>
+      <p><strong>TrendSeek</strong> is your intelligent guide to the topics shaping our world. We deliver in-depth, well-researched articles on the most important trends in <strong>technology, finance, science, and economy</strong> — available in English, Italian, Spanish, and French.</p>
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
+      <h2>Our Mission</h2>
+      <p>In a world overflowing with information, finding thoughtful and reliable analysis can be challenging. TrendSeek exists to cut through the noise. We combine AI-powered research with editorial quality to bring you articles that are:</p>
+      <ul>
+        <li><strong>Well-researched</strong> — backed by data, studies, and expert insights</li>
+        <li><strong>Accessible</strong> — complex topics explained clearly for everyone</li>
+        <li><strong>Multilingual</strong> — available in 4 languages to reach a global audience</li>
+        <li><strong>SEO-optimized</strong> — easy to find when you need them most</li>
+      </ul>
 
-	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
-	</p>
+      <h2>What We Cover</h2>
+      <p>Our articles span a wide range of trending and niche topics:</p>
+      <ul>
+        <li>🔬 <strong>Science &amp; Technology</strong> — Quantum computing, AI, cybersecurity, emerging tech</li>
+        <li>💰 <strong>Finance &amp; Investing</strong> — Options strategies, market analysis, personal finance</li>
+        <li>🌍 <strong>Economy &amp; Geopolitics</strong> — Global trends, trade policies, economic shifts</li>
+        <li>🚀 <strong>Startups &amp; Entrepreneurship</strong> — Bootstrapping, growth strategies, innovation</li>
+      </ul>
 
-	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
-	</p>
-</Layout>
+      <h2>How It Works</h2>
+      <p>TrendSeek uses a unique blend of artificial intelligence and human curation. Our AI engine identifies trending and niche topics based on real-time search data, then generates comprehensive long-form articles that are reviewed and published across four languages.</p>
+
+      <h2>Stay Informed</h2>
+      <p>Bookmark <a href="/">trendseek.net</a> and check back regularly for fresh content. New articles are published daily, covering the latest developments across our core topics.</p>
+
+      <p style="margin-top: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+        Have questions or suggestions? Reach out at <strong>info@trendseek.net</strong>
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .about-page {
+    max-width: 800px;
+    padding: 3rem 1.5rem 4rem;
+    line-height: 1.8;
+  }
+  .about-page h1 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 1.5rem;
+  }
+  .about-page h2 {
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: var(--accent);
+  }
+  .about-page ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .about-page li {
+    margin-bottom: 0.5rem;
+  }
+  .about-page a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+</style>

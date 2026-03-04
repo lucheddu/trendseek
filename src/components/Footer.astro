@@ -3,6 +3,13 @@ const today = new Date();
 ---
 
 <footer>
+	<div class="footer-links">
+		<a href="/about/">About</a>
+		<span class="sep">·</span>
+		<a href="/privacy/">Privacy Policy</a>
+		<span class="sep">·</span>
+		<a href="/terms/">Terms of Service</a>
+	</div>
 	&copy; {today.getFullYear()} TrendSeek. All rights reserved.
 </footer>
 <style>
@@ -11,5 +18,22 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.footer-links {
+		margin-bottom: 0.75rem;
+		font-size: 0.85rem;
+	}
+	.footer-links a {
+		color: var(--accent);
+		text-decoration: none;
+		transition: opacity 0.2s;
+	}
+	.footer-links a:hover {
+		opacity: 0.8;
+		text-decoration: underline;
+	}
+	.sep {
+		margin: 0 0.5rem;
+		opacity: 0.4;
 	}
 </style>

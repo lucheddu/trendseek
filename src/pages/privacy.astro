@@ -1,0 +1,116 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title="Privacy Policy – TrendSeek" description="Privacy Policy for TrendSeek. Learn how we handle your data." />
+  </head>
+  <body>
+    <Header />
+    <main class="container legal-page">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: March 4, 2026</p>
+
+      <p>Welcome to <strong>TrendSeek</strong> ("we", "us", or "our"), accessible at <strong>trendseek.net</strong>. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you visit our website.</p>
+
+      <h2>1. Information We Collect</h2>
+      <p>We may collect the following types of information:</p>
+      <ul>
+        <li><strong>Usage Data:</strong> Pages visited, time spent on pages, referring URL, browser type, device type, and IP address. This data is collected automatically through analytics tools.</li>
+        <li><strong>Cookies:</strong> We use cookies and similar tracking technologies to enhance your experience and serve relevant advertisements.</li>
+      </ul>
+      <p>We do <strong>not</strong> collect personally identifiable information (such as your name, email address, or phone number) unless you voluntarily provide it.</p>
+
+      <h2>2. How We Use Your Information</h2>
+      <p>We use the collected data to:</p>
+      <ul>
+        <li>Analyze website traffic and usage patterns</li>
+        <li>Improve our content and user experience</li>
+        <li>Display relevant advertisements through Google AdSense</li>
+        <li>Maintain site security and prevent abuse</li>
+      </ul>
+
+      <h2>3. Google AdSense &amp; Advertising</h2>
+      <p>We use <strong>Google AdSense</strong> to serve advertisements. Google AdSense uses cookies to serve ads based on your prior visits to this and other websites. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google's Ads Settings</a>.</p>
+      <p>Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site and/or other sites on the Internet.</p>
+
+      <h2>4. Third-Party Services</h2>
+      <p>We may use the following third-party services:</p>
+      <ul>
+        <li><strong>Google AdSense</strong> – for displaying advertisements</li>
+        <li><strong>Google Analytics</strong> – for tracking and analyzing website traffic</li>
+        <li><strong>Cloudflare</strong> – for content delivery and security</li>
+      </ul>
+      <p>Each of these services has its own privacy policy governing how they collect and use data.</p>
+
+      <h2>5. Cookies</h2>
+      <p>Cookies are small files stored on your device. We use:</p>
+      <ul>
+        <li><strong>Essential cookies:</strong> Required for the website to function properly (e.g., language preferences).</li>
+        <li><strong>Analytics cookies:</strong> Help us understand how visitors interact with our website.</li>
+        <li><strong>Advertising cookies:</strong> Used by Google AdSense to display relevant ads.</li>
+      </ul>
+      <p>You can control cookies through your browser settings. Disabling cookies may affect site functionality.</p>
+
+      <h2>6. Your Rights</h2>
+      <p>Under GDPR and other privacy regulations, you have the right to:</p>
+      <ul>
+        <li>Access, correct, or delete your personal data</li>
+        <li>Object to or restrict data processing</li>
+        <li>Withdraw consent at any time</li>
+        <li>Lodge a complaint with a supervisory authority</li>
+      </ul>
+
+      <h2>7. Data Security</h2>
+      <p>We take reasonable measures to protect your information. Our website is served over HTTPS and hosted on Cloudflare's secure infrastructure.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>Our website is not intended for children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.</p>
+
+      <h2>10. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, contact us at: <strong>privacy@trendseek.net</strong></p>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .legal-page {
+    max-width: 800px;
+    padding: 3rem 1.5rem 4rem;
+    line-height: 1.8;
+  }
+  .legal-page h1 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 0.25rem;
+  }
+  .legal-page .updated {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+  }
+  .legal-page h2 {
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: var(--accent);
+  }
+  .legal-page ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .legal-page li {
+    margin-bottom: 0.4rem;
+  }
+  .legal-page a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+</style>
