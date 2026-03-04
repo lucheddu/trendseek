@@ -6,7 +6,7 @@ lang: "en"
 slug: "quantum-computing-impact-cybersecurity"
 translationSlugs: '{"en": "quantum-computing-impact-cybersecurity", "it": "quantum-computing-impact-cybersecurity-it", "es": "quantum-computing-impact-cybersecurity-es", "fr": "quantum-computing-impact-cybersecurity-fr"}'
 tags: ["Quantum Computing", "Cybersecurity", "Science", "Geopolitics", "Economy"]
-heroImage: "/images/blog/quantum-computing-impact-cybersecurity-hero.png"
+heroImage: "/images/blog/quantum-computing-impact-cybersecurity-hero.webp"
 ---
 
 # The Quantum Leap: Unpacking Quantum Computing's Impact on Cybersecurity

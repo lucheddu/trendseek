@@ -6,7 +6,7 @@ lang: "fr"
 slug: "the-future-of-defi-protocols-web3-finance-fr"
 translationSlugs: '{"en": "the-future-of-defi-protocols-web3-finance", "it": "the-future-of-defi-protocols-web3-finance-it", "es": "the-future-of-defi-protocols-web3-finance-es", "fr": "the-future-of-defi-protocols-web3-finance-fr"}'
 tags: ["Finance Décentralisée", "Protocoles DeFi", "Technologie Blockchain", "Web3", "Innovation Financière"]
-heroImage: "/images/blog/the-future-of-defi-protocols-web3-finance-hero.png"
+heroImage: "/images/blog/the-future-of-defi-protocols-web3-finance-hero.webp"
 ---
 
 # L'avenir des protocoles de finance décentralisée (DeFi) : Naviguer dans la révolution financière du Web3
@@ -38,12 +38,12 @@ Actuellement, de nombreux protocoles DeFi existent dans des écosystèmes blockc
 ### Tokenisation des actifs du monde réel (RWAs)
 L'un des ponts les plus significatifs entre la TradFi et la DeFi est la **tokenisation des actifs du monde réel (RWAs)**. Cela implique de représenter des actifs tangibles ou intangibles – tels que l'immobilier, les actions, les matières premières, les factures ou même la propriété intellectuelle – sous forme de jetons numériques sur une blockchain. Des protocoles comme Centrifuge et Maple Finance explorent les marchés de crédit et de dette tokenisés, permettant aux utilisateurs de la DeFi d'accéder à des rendements adossés à des actifs traditionnels stables et générateurs de revenus. Cette tendance introduit un potentiel de liquidité immense et aide à diversifier les risques au sein de l'écosystème DeFi.
 
-![Diverse blockchains seamlessly connecting, exchanging data and assets.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-1.png)
+![Diverse blockchains seamlessly connecting, exchanging data and assets.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-1.webp)
 
 ### Sécurité et gestion des risques améliorées
 À mesure que la DeFi mûrit, son attention à la sécurité s'accroît également. Bien que les audits de contrats intelligents soient la norme, l'avenir verra des avancées dans les méthodes de vérification formelle, des programmes de primes aux bugs robustes et des protocoles d'assurance décentralisés comme Nexus Mutual offrant une couverture contre les exploits de contrats intelligents. De plus, des **cadres de gestion des risques** sophistiqués deviendront plus répandus, employant des analyses avancées et des réseaux d'oracles pour surveiller la santé des protocoles et atténuer les risques systémiques.
 
-![Real-world assets like property and gold transforming into digital tokens.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-2.png)
+![Real-world assets like property and gold transforming into digital tokens.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-2.webp)
 
 ### Améliorations de l'expérience utilisateur (UX)
 Pour que la DeFi atteigne une adoption grand public, l'expérience utilisateur doit devenir intuitive et accessible. L'avenir verra des améliorations significatives de l'**UI/UX**, avec des processus d'intégration simplifiés, une abstraction des frais de gaz (où les utilisateurs ne gèrent pas directement le gaz), des portefeuilles auto-dépositaires avec de meilleures options de récupération, et des rampes d'accès/sortie fiat intégrées. L'objectif est de rendre l'interaction avec la DeFi aussi fluide que l'utilisation des services bancaires en ligne traditionnels.
@@ -97,7 +97,7 @@ La DeFi fait tomber les barrières à l'investissement, permettant aux individus
 *   **Immobilier tokenisé :** Des protocoles émergent qui permettent la propriété fractionnée de biens immobiliers, rendant l'investissement immobilier accessible avec des mises de fonds plus modestes. Cela démocratise l'accumulation de richesse et apporte de la liquidité aux actifs illiquides.
 *   **Accès aux actifs exotiques :** Grâce à la tokenisation, les utilisateurs peuvent s'exposer à un éventail plus large d'actifs, de l'art et des objets de collection aux participations en capital-investissement, tous négociables sur des marchés décentralisés.
 
-![Person in a remote village accessing finance via smartphone.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-3.png)
+![Person in a remote village accessing finance via smartphone.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-3.webp)
 
 ### Amélioration de la transparence et de l'efficacité des chaînes d'approvisionnement
 Les principes de la DeFi peuvent être appliqués pour révolutionner le financement de la chaîne d'approvisionnement. En tokenisant les factures ou en suivant les marchandises sur une blockchain, les entreprises peuvent bénéficier d'une transparence sans précédent, réduire la fraude et accélérer les cycles de paiement. Par exemple, **Centrifuge** travaille avec des entreprises pour tokeniser des actifs du monde réel comme les factures et fournir un financement via des pools de liquidité DeFi, offrant un accès plus rapide et moins cher au fonds de roulement.

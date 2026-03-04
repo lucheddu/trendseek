@@ -6,7 +6,7 @@ lang: "es"
 slug: "the-future-of-defi-protocols-web3-finance-es"
 translationSlugs: '{"en": "the-future-of-defi-protocols-web3-finance", "it": "the-future-of-defi-protocols-web3-finance-it", "es": "the-future-of-defi-protocols-web3-finance-es", "fr": "the-future-of-defi-protocols-web3-finance-fr"}'
 tags: ["Finanzas Descentralizadas", "Protocolos DeFi", "Tecnología Blockchain", "Web3", "Innovación Financiera"]
-heroImage: "/images/blog/the-future-of-defi-protocols-web3-finance-hero.png"
+heroImage: "/images/blog/the-future-of-defi-protocols-web3-finance-hero.webp"
 ---
 
 # El Futuro de los Protocolos de Finanzas Descentralizadas (DeFi): Navegando la Revolución Financiera de Web3
@@ -41,13 +41,13 @@ Actualmente, muchos protocolos DeFi existen en ecosistemas de blockchain aislado
 
 Uno de los puentes más significativos entre TradFi y DeFi es la **tokenización de activos del mundo real (RWAs)**. Esto implica representar activos tangibles o intangibles –como bienes raíces, acciones, materias primas, facturas o incluso propiedad intelectual– como tokens digitales en una blockchain. Protocolos como Centrifuge y Maple Finance están explorando mercados de crédito y deuda tokenizados, permitiendo a los usuarios de DeFi acceder a rendimientos respaldados por activos tradicionales estables y generadores de ingresos. Esta tendencia introduce un inmenso potencial de liquidez y ayuda a diversificar el riesgo dentro del ecosistema DeFi.
 
-![Diverse blockchains seamlessly connecting, exchanging data and assets.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-1.png)
+![Diverse blockchains seamlessly connecting, exchanging data and assets.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-1.webp)
 
 ### Seguridad Mejorada y Gestión de Riesgos
 
 A medida que DeFi madura, también lo hace su enfoque en la seguridad. Si bien las auditorías de contratos inteligentes son estándar, el futuro verá avances en métodos de verificación formal, programas robustos de recompensas por errores (bug bounty) y protocolos de seguros descentralizados como Nexus Mutual que ofrecen cobertura contra exploits de contratos inteligentes. Además, los **marcos de gestión de riesgos** sofisticados serán más prevalentes, empleando análisis avanzados y redes de oráculos para monitorear la salud del protocolo y mitigar los riesgos sistémicos.
 
-![Real-world assets like property and gold transforming into digital tokens.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-2.png)
+![Real-world assets like property and gold transforming into digital tokens.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-2.webp)
 
 ### Mejoras en la Experiencia del Usuario (UX)
 
@@ -113,7 +113,7 @@ DeFi está derribando barreras a la inversión, permitiendo a los individuos acc
 *   **Bienes Raíces Tokenizados:** Están surgiendo protocolos que permiten la propiedad fraccionada de bienes raíces, haciendo que la inversión inmobiliaria sea accesible con desembolsos de capital más pequeños. Esto democratiza la creación de riqueza y proporciona liquidez a activos ilíquidos.
 *   **Acceso a Activos Exóticos:** A través de la tokenización, los usuarios pueden obtener exposición a una gama más amplia de activos, desde arte y coleccionables hasta participaciones de capital privado, todos negociables en mercados descentralizados.
 
-![Person in a remote village accessing finance via smartphone.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-3.png)
+![Person in a remote village accessing finance via smartphone.](/images/blog/the-future-of-defi-protocols-web3-finance-ctx-3.webp)
 
 ### Mejorando la Transparencia y Eficiencia en las Cadenas de Suministro
 

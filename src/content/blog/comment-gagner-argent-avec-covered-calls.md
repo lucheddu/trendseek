@@ -6,7 +6,7 @@ lang: "fr"
 slug: "comment-gagner-argent-avec-covered-calls"
 translationSlugs: '{"en":"how-to-make-money-with-covered-calls","it":"come-fare-soldi-con-le-covered-call","es":"como-ganar-dinero-con-covered-calls","fr":"comment-gagner-argent-avec-covered-calls"}'
 tags: ["finance", "investissement", "options", "revenus", "bourse"]
-heroImage: "/images/blog/covered-calls-hero.png"
+heroImage: "/images/blog/covered-calls-hero.webp"
 ---
 
 # Comment générer des revenus avec les calls couverts : Un guide complet pour la génération de revenus

@@ -6,7 +6,7 @@ lang: "fr"
 slug: "ai-journalism-future-news-media-fr"
 translationSlugs: '{"en": "ai-journalism-future-news-media", "it": "ai-journalism-future-news-media-it", "es": "ai-journalism-future-news-media-es", "fr": "ai-journalism-future-news-media-fr"}'
 tags: ["IA", "journalisme", "médias", "science", "actualité"]
-heroImage: "/images/blog/ai-journalism-future-news-media-hero.png"
+heroImage: "/images/blog/ai-journalism-future-news-media-hero.webp"
 ---
 
 # L'intelligence artificielle et l'avenir du journalisme : Un guide complet pour TrendSeek
@@ -52,7 +52,7 @@ En regardant vers l'avenir, le potentiel de l'IA pour stimuler l'innovation dans
 *   **Nouveaux modèles commerciaux :** L'IA pourrait aider les organisations de presse à identifier de nouvelles sources de revenus, à optimiser les stratégies d'abonnement ou à créer des solutions publicitaires très ciblées basées sur des informations approfondies sur le public. Elle pourrait également rationaliser les opérations de back-office, réduisant les coûts et rendant les salles de rédaction plus durables.
 *   **Améliorations de l'accessibilité :** L'IA peut générer automatiquement des descriptions audio pour les images, traduire le langage des signes ou convertir du texte en divers formats accessibles, rendant l'actualité plus inclusive pour les personnes handicapées.
 
-![Personne expérimentant des actualités immersives en RV/RA.](/images/blog/ai-journalism-future-news-media-ctx-2.png)
+![Personne expérimentant des actualités immersives en RV/RA.](/images/blog/ai-journalism-future-news-media-ctx-2.webp)
 
 Ces innovations promettent un avenir où le journalisme sera plus accessible, plus engageant et plus pertinent pour les lecteurs individuels que jamais auparavant, favorisant une citoyenneté mondiale mieux informée.
 

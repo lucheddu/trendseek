@@ -6,7 +6,7 @@ lang: "en"
 slug: "ai-journalism-future-news-media"
 translationSlugs: '{"en": "ai-journalism-future-news-media", "it": "ai-journalism-future-news-media-it", "es": "ai-journalism-future-news-media-es", "fr": "ai-journalism-future-news-media-fr"}'
 tags: ["AI", "journalism", "media", "science", "current events"]
-heroImage: "/images/blog/ai-journalism-future-news-media-hero.png"
+heroImage: "/images/blog/ai-journalism-future-news-media-hero.webp"
 ---
 
 # Artificial Intelligence and the Future of Journalism: A Comprehensive Guide for TrendSeek
@@ -52,7 +52,7 @@ Looking ahead, the potential for AI to drive innovation in journalism is immense
 *   **New Business Models:** AI could help news organizations identify new revenue streams, optimize subscription strategies, or create highly targeted advertising solutions based on deep audience insights. It could also streamline back-end operations, reducing costs and making newsrooms more sustainable.
 *   **Accessibility Enhancements:** AI can automatically generate audio descriptions for images, translate sign language, or convert text into various accessible formats, making news more inclusive for people with disabilities.
 
-![Person experiencing immersive VR/AR news.](/images/blog/ai-journalism-future-news-media-ctx-2.png)
+![Person experiencing immersive VR/AR news.](/images/blog/ai-journalism-future-news-media-ctx-2.webp)
 
 
 These innovations promise a future where journalism is more accessible, more engaging, and more relevant to individual readers than ever before, fostering a more informed global citizenry.

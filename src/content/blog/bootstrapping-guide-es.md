@@ -3,7 +3,7 @@ title: 'Estrategias Esenciales para el Bootstrapping y Conseguir los Primeros Cl
 description: 'Aprende las estrategias esenciales para arrancar tu negocio con bootstrapping y conseguir los primeros clientes de manera efectiva.'
 pubDate: '2026-03-04'
 lang: 'es'
-heroImage: '/images/blog/bootstrapping-hero.png'
+heroImage: '/images/blog/bootstrapping-hero.webp'
 tags: ['emprendimiento', 'startup', 'negocio', 'bootstrapping', 'clientes']
 ---
 
