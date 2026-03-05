@@ -4,10 +4,11 @@ description: "Struggling with remote work productivity? Discover 10 essential ha
 pubDate: "2026-03-05"
 lang: "en"
 slug: "10-productivity-hacks-remote-workers"
-translationSlugs: '{"en": "10-productivity-hacks-remote-workers", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta", "fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez"}'
-tags: ["Remote Work", "Productivity Hacks", "Work From Home", "Time Management", "Work-Life Balance"]
+translationSlugs: '{"en": "10-productivity-hacks-remote-workers", "fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez-votre-efficacite", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti-migliora-la-tua-efficienza", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta-tu-eficiencia"}'
+tags: "[\"Remote Work\", \"Productivity Hacks\", \"Work From Home\", \"Time Management\", \"Work-Life Balance\"]"
 heroImage: "/images/blog/10-productivity-hacks-remote-workers-hero.webp"
 ---
+
 
 # Supercharge Your Remote Workday: 10 Productivity Hacks for Remote Workers
 

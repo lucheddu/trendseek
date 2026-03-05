@@ -4,10 +4,11 @@ description: "Discover the essential leadership skills for 2026. Navigate techno
 pubDate: "2026-03-05"
 lang: "en"
 slug: "top-2026-leadership-skills-future-success"
-translationSlugs: '{"en": "top-2026-leadership-skills-future-success", "it": "le-migliori-competenze-di-leadership-per-il-2026-it", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez"}'
-tags: ["Leadership Skills", "Future of Work", "2026 Trends", "AI Leadership", "Business Strategy"]
+translationSlugs: '{"en": "top-2026-leadership-skills-future-success", "it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera"}'
+tags: "[\"Leadership Skills\", \"Future of Work\", \"2026 Trends\", \"AI Leadership\", \"Business Strategy\"]"
 heroImage: "/images/blog/top-2026-leadership-skills-future-success-hero.webp"
 ---
+
 
 # The Best 2026 Leadership Skills to Develop for Future-Proof Success
 

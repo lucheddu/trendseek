@@ -4,10 +4,11 @@ description: "Learn the covered call strategy step by step to generate consisten
 pubDate: "2026-03-04"
 lang: "en"
 slug: "how-to-make-money-with-covered-calls"
-translationSlugs: '{"en":"how-to-make-money-with-covered-calls","it":"come-fare-soldi-con-le-covered-call","es":"como-ganar-dinero-con-covered-calls","fr":"comment-gagner-argent-avec-covered-calls"}'
-tags: ["finance", "investing", "options", "income", "stock market"]
+translationSlugs: '{"en": "how-to-make-money-with-covered-calls", "it": "come-guadagnare-con-le-covered-call-la-guida-completa", "fr": "comment-gagner-de-largent-avec-les-covered-calls-le-guide-complet", "es": "como-ganar-dinero-con-covered-calls-la-guia-completa"}'
+tags: "[\"finance\", \"investing\", \"options\", \"income\", \"stock market\"]"
 heroImage: "/images/blog/covered-calls-hero.webp"
 ---
+
 
 # How to Make Money with Covered Calls: A Comprehensive Guide for Income Generation
 
