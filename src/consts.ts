@@ -1,5 +1,5 @@
 export const SITE_TITLE = 'TrendSeek';
-export const SITE_DESCRIPTION = 'Discover trending topics, actionable guides and money-making insights, translated in your language.';
+export const SITE_DESCRIPTION = 'Discover trending topics, actionable guides, fascinating history and money-making insights, translated in your language.';
 
 export const SUPPORTED_LANGS = [
     { code: 'en', label: 'English', flag: '🇬🇧', flagImg: 'https://flagcdn.com/24x18/gb.png' },
