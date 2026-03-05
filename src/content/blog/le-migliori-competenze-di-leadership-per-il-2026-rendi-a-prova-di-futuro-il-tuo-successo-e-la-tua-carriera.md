@@ -4,11 +4,10 @@ description: "Scopri le competenze di leadership essenziali per il 2026. Affront
 pubDate: "2026-03-05"
 lang: "it"
 slug: "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera"
-translationSlugs: '{"it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera", "en": "top-2026-leadership-skills-future-success"}'
+translationSlugs: '{"en": "top-2026-leadership-skills-future-success", "it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere"}'
 tags: ["Competenze di leadership", "Futuro del lavoro", "Tendenze 2026", "Leadership nell'IA", "Strategia aziendale"]
 heroImage: "/images/blog/top-2026-leadership-skills-future-success-hero.webp"
 ---
-
 
 # Le Migliori Competenze di Leadership da Sviluppare per il 2026 per un Successo a Prova di Futuro
 

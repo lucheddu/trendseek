@@ -4,11 +4,10 @@ description: "Apprenez la stratégie des covered calls étape par étape pour g�
 pubDate: "2026-03-04"
 lang: "fr"
 slug: "comment-gagner-de-largent-avec-les-covered-calls-le-guide-complet"
-translationSlugs: '{"it": "come-guadagnare-con-le-covered-call-la-guida-completa", "fr": "comment-gagner-de-largent-avec-les-covered-calls-le-guide-complet", "es": "como-ganar-dinero-con-covered-calls-la-guia-completa", "en": "how-to-make-money-with-covered-calls"}'
+translationSlugs: '{"en": "how-to-make-money-with-covered-calls", "it": "come-guadagnare-con-le-covered-call-la-guida-completa", "es": "como-ganar-dinero-con-covered-calls-la-guia-completa", "fr": "comment-gagner-de-largent-avec-les-covered-calls-le-guide-complet"}'
 tags: ["finance", "investissement", "options", "revenus", "bourse"]
 heroImage: "/images/blog/covered-calls-hero.webp"
 ---
-
 
 # Comment générer des revenus avec les calls couverts : Un guide complet pour la génération de revenus
 
