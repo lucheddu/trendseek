@@ -19,7 +19,7 @@ if (rawSlugs) {
 <!doctype html>
 <html lang={lang}>
   <head>
-    <BaseHead title={title} description={description} image={heroImage} />
+    <BaseHead title={title} description={description} image={heroImage} ogType="article" pubDate={pubDate} updatedDate={updatedDate} lang={lang} translationSlugs={parsedSlugs} />
   </head>
   <body>
     <Header currentLang={lang} translationSlugs={parsedSlugs} />
