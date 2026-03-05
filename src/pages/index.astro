@@ -361,24 +361,32 @@ const allPosts = (await getCollection('blog')).sort(
       allTag:            'All',
       readGuide:         'Read Guide →',
       noResults:         'No results. Try a different search or tag.',
+      loadMore:          'Load More ↓',
+      showingOf:         'Showing {shown} of {total} articles',
     },
     it: {
       searchPlaceholder: 'Cerca articoli, argomenti, tag…',
       allTag:            'Tutti',
       readGuide:         'Leggi la Guida →',
       noResults:         'Nessun risultato. Prova una ricerca o un tag diverso.',
+      loadMore:          'Carica Altri ↓',
+      showingOf:         '{shown} di {total} articoli visualizzati',
     },
     es: {
       searchPlaceholder: 'Buscar artículos, temas, tags…',
       allTag:            'Todos',
       readGuide:         'Leer Guía →',
       noResults:         'Sin resultados. Prueba con otra búsqueda o etiqueta.',
+      loadMore:          'Cargar Más ↓',
+      showingOf:         'Mostrando {shown} de {total} artículos',
     },
     fr: {
       searchPlaceholder: 'Rechercher articles, sujets, tags…',
       allTag:            'Tous',
       readGuide:         'Lire le Guide →',
       noResults:         'Aucun résultat. Essayez une autre recherche ou étiquette.',
+      loadMore:          'Charger Plus ↓',
+      showingOf:         '{shown} sur {total} articles affichés',
     },
   };
 
@@ -399,6 +407,10 @@ const allPosts = (await getCollection('blog')).sort(
     document.querySelectorAll<HTMLElement>('.read-more').forEach(el => {
       el.textContent = t('readGuide');
     });
+
+    // "Load More" button
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    if (loadMoreBtn) loadMoreBtn.textContent = t('loadMore');
 
     // "No results" message
     const noEl = document.getElementById('no-results');
@@ -489,7 +501,7 @@ const allPosts = (await getCollection('blog')).sort(
       loadMoreWrap.style.display = totalMatching > PAGE_SIZE ? '' : 'none';
     }
     if (shownCount) {
-      shownCount.textContent = `Showing ${currentlyShown} of ${totalMatching} articles`;
+      shownCount.textContent = t('showingOf').replace('{shown}', String(currentlyShown)).replace('{total}', String(totalMatching));
     }
     const loadMoreBtn = document.getElementById('load-more-btn');
     if (loadMoreBtn) {
