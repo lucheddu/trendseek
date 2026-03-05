@@ -5,10 +5,9 @@ pubDate: "2026-03-04"
 lang: "en"
 slug: "ai-in-medicine-healthcare-transformation"
 translationSlugs: '{"en": "ai-in-medicine-healthcare-transformation", "es": "ia-en-medicina-una-guia-completa-para-la-transformacion-de-la-salud", "fr": "lia-en-medecine-le-guide-complet-de-la-transformation-des-soins-de-sante", "it": "lia-in-medicina-una-guida-completa-alla-trasformazione-sanitaria"}'
-tags: "[\"AI\", \"Healthcare\", \"Medicine\", \"Science\", \"Technology\"]"
+tags: ["AI", "Healthcare", "Medicine", "Science", "Technology"]
 heroImage: "/images/blog/ai-in-medicine-healthcare-transformation-hero.webp"
 ---
-
 
 # Rivoluzione Sanitaria: La Guida Completa all'Intelligenza Artificiale Applicata alla Medicina
 

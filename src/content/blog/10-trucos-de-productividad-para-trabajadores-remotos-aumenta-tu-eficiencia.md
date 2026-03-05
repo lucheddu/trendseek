@@ -4,11 +4,10 @@ description: "¿Luchas con la productividad en el trabajo remoto? Descubre 10 tr
 pubDate: "2026-03-05"
 lang: "es"
 slug: "10-trucos-de-productividad-para-trabajadores-remotos-aumenta-tu-eficiencia"
-translationSlugs: '{"en": "10-productivity-hacks-remote-workers", "fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez-votre-efficacite", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti-migliora-la-tua-efficienza", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta-tu-eficiencia"}'
-tags: "[\"Trabajo Remoto\", \"Trucos de Productividad\", \"Trabajo Desde Casa\", \"Gesti\u00f3n del Tiempo\", \"Equilibrio Vida Laboral y Personal\"]"
+translationSlugs: '{"fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez-votre-efficacite", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti-migliora-la-tua-efficienza", "en": "10-productivity-hacks-remote-workers", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta-tu-eficiencia"}'
+tags: ["Trabajo Remoto", "Trucos de Productividad", "Trabajo Desde Casa", "Gesti\u00f3n del Tiempo", "Equilibrio Vida Laboral y Personal"]
 heroImage: "/images/blog/10-productivity-hacks-remote-workers-hero.webp"
 ---
-
 
 # Potencia tu Jornada Laboral Remota: 10 Hacks de Productividad para Trabajadores Remotos
 

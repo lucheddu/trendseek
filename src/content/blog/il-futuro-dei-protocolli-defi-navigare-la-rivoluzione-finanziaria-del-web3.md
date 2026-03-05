@@ -4,11 +4,10 @@ description: "Esplora il futuro dei protocolli di Finanza Decentralizzata (DeFi)
 pubDate: "2026-03-04"
 lang: "it"
 slug: "il-futuro-dei-protocolli-defi-navigare-la-rivoluzione-finanziaria-del-web3"
-translationSlugs: '{"en": "the-future-of-defi-protocols-web3-finance", "es": "el-futuro-de-los-protocolos-defi-navegando-la-revolucion-financiera-de-web3", "it": "il-futuro-dei-protocolli-defi-navigare-la-rivoluzione-finanziaria-del-web3", "fr": "lavenir-des-protocoles-defi-naviguer-dans-la-revolution-financiere-du-web3"}'
-tags: "[\"Finanza Decentralizzata\", \"Protocolli DeFi\", \"Tecnologia Blockchain\", \"Web3\", \"Innovazione Finanziaria\"]"
+translationSlugs: '{"es": "el-futuro-de-los-protocolos-defi-navegando-la-revolucion-financiera-de-web3", "it": "il-futuro-dei-protocolli-defi-navigare-la-rivoluzione-finanziaria-del-web3", "fr": "lavenir-des-protocoles-defi-naviguer-dans-la-revolution-financiere-du-web3", "en": "the-future-of-defi-protocols-web3-finance"}'
+tags: ["Finanza Decentralizzata", "Protocolli DeFi", "Tecnologia Blockchain", "Web3", "Innovazione Finanziaria"]
 heroImage: "/images/blog/the-future-of-defi-protocols-web3-finance-hero.webp"
 ---
-
 
 # Il Futuro dei Protocolli di Finanza Decentralizzata (DeFi): Navigare la Rivoluzione Finanziaria del Web3
 

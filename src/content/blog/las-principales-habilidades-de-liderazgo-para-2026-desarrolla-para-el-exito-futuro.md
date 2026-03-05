@@ -5,10 +5,9 @@ pubDate: "2026-03-05"
 lang: "es"
 slug: "las-principales-habilidades-de-liderazgo-para-2026-desarrolla-para-el-exito-futuro"
 translationSlugs: '{"en": "best-2026-leadership-skills-to-develop", "es": "las-principales-habilidades-de-liderazgo-para-2026-desarrolla-para-el-exito-futuro", "it": "le-migliori-competenze-di-leadership-per-il-2026-sviluppale-per-il-successo-futuro", "fr": "les-meilleures-competences-en-leadership-pour-2026-developpez-les-pour-un-succes-futur"}'
-tags: "[\"Habilidades de Liderazgo\", \"Futuro del Trabajo\", \"Liderazgo en IA\", \"Geopol\u00edtica\", \"Desarrollo Estrat\u00e9gico\"]"
+tags: ["Habilidades de Liderazgo", "Futuro del Trabajo", "Liderazgo en IA", "Geopol\u00edtica", "Desarrollo Estrat\u00e9gico"]
 heroImage: "/images/blog/best-2026-leadership-skills-to-develop-hero.webp"
 ---
-
 
 # Navegando el Mañana: Las Mejores Habilidades de Liderazgo para Desarrollar en 2026 para el Éxito Futuro
 

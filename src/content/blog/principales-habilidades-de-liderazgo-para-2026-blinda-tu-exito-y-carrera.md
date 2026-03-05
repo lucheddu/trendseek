@@ -4,11 +4,10 @@ description: "Descubre las habilidades de liderazgo esenciales para 2026. Navega
 pubDate: "2026-03-05"
 lang: "es"
 slug: "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera"
-translationSlugs: '{"en": "top-2026-leadership-skills-future-success", "it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera"}'
-tags: "[\"Habilidades de Liderazgo\", \"Futuro del Trabajo\", \"Tendencias 2026\", \"Liderazgo en IA\", \"Estrategia Empresarial\"]"
+translationSlugs: '{"it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera", "en": "top-2026-leadership-skills-future-success"}'
+tags: ["Habilidades de Liderazgo", "Futuro del Trabajo", "Tendencias 2026", "Liderazgo en IA", "Estrategia Empresarial"]
 heroImage: "/images/blog/top-2026-leadership-skills-future-success-hero.webp"
 ---
-
 
 # Las Mejores Habilidades de Liderazgo para 2026 que Debes Desarrollar para un Éxito a Prueba de Futuro
 

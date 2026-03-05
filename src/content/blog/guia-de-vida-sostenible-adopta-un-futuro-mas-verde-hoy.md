@@ -4,11 +4,10 @@ description: "Descubre prácticas de vida sostenible para un planeta más saluda
 pubDate: "2026-03-05"
 lang: "es"
 slug: "guia-de-vida-sostenible-adopta-un-futuro-mas-verde-hoy"
-translationSlugs: '{"en": "guide-to-sustainable-living-practices", "es": "guia-de-vida-sostenible-adopta-un-futuro-mas-verde-hoy", "it": "guida-alla-vita-sostenibile-abbraccia-un-futuro-piu-verde-oggi", "fr": "guide-de-vie-durable-adoptez-un-avenir-plus-vert-des-aujourdhui"}'
-tags: "[\"Vida Sostenible\", \"Pr\u00e1cticas Ecol\u00f3gicas\", \"Vivir Verde\", \"Conciencia Ambiental\", \"Acci\u00f3n Clim\u00e1tica\"]"
+translationSlugs: '{"es": "guia-de-vida-sostenible-adopta-un-futuro-mas-verde-hoy", "it": "guida-alla-vita-sostenibile-abbraccia-un-futuro-piu-verde-oggi", "fr": "guide-de-vie-durable-adoptez-un-avenir-plus-vert-des-aujourdhui", "en": "guide-to-sustainable-living-practices"}'
+tags: ["Vida Sostenible", "Pr\u00e1cticas Ecol\u00f3gicas", "Vivir Verde", "Conciencia Ambiental", "Acci\u00f3n Clim\u00e1tica"]
 heroImage: "/images/blog/guide-to-sustainable-living-practices-hero.webp"
 ---
-
 
 # Una Guía Completa de Prácticas de Vida Sostenible: Abraza un Futuro Más Verde
 

@@ -5,10 +5,9 @@ pubDate: "2026-03-04"
 lang: "en"
 slug: "ai-journalism-future-news-media"
 translationSlugs: '{"en": "ai-journalism-future-news-media", "es": "la-ia-y-el-futuro-del-periodismo-remodelando-la-informacion-y-los-medios-de-comunicacion", "it": "lia-e-il-futuro-del-giornalismo-rimodellare-la-notizia-e-i-media", "fr": "lia-et-lavenir-du-journalisme-redefinir-le-reportage-et-les-medias"}'
-tags: "[\"AI\", \"journalism\", \"media\", \"science\", \"current events\"]"
+tags: ["AI", "journalism", "media", "science", "current events"]
 heroImage: "/images/blog/ai-journalism-future-news-media-hero.webp"
 ---
-
 
 # Artificial Intelligence and the Future of Journalism: A Comprehensive Guide for TrendSeek
 

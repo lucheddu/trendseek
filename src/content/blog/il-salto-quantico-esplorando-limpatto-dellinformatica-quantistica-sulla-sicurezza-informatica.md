@@ -4,11 +4,10 @@ description: "Esplora come l'informatica quantistica sia pronta a rivoluzionare 
 pubDate: "2026-03-04"
 lang: "it"
 slug: "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla-sicurezza-informatica"
-translationSlugs: '{"en": "quantum-computing-impact-cybersecurity", "es": "el-salto-cuantico-desentranando-el-impacto-de-la-computacion-cuantica-en-la-ciberseguridad", "it": "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla-sicurezza-informatica", "fr": "le-saut-quantique-decrypter-limpact-de-linformatique-quantique-sur-la-cybersecurite"}'
-tags: "[\"Informatica Quantistica\", \"Sicurezza Informatica\", \"Scienza\", \"Geopolitica\", \"Economia\"]"
+translationSlugs: '{"es": "el-salto-cuantico-desentranando-el-impacto-de-la-computacion-cuantica-en-la-ciberseguridad", "it": "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla-sicurezza-informatica", "fr": "le-saut-quantique-decrypter-limpact-de-linformatique-quantique-sur-la-cybersecurite", "en": "quantum-computing-impact-cybersecurity"}'
+tags: ["Informatica Quantistica", "Sicurezza Informatica", "Scienza", "Geopolitica", "Economia"]
 heroImage: "/images/blog/quantum-computing-impact-cybersecurity-hero.webp"
 ---
-
 
 # Il Salto Quantico: Svelare l'Impatto del Quantum Computing sulla Cybersecurity
 

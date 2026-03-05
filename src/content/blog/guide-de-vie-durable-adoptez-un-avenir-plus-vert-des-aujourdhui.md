@@ -4,11 +4,10 @@ description: "Découvrez des pratiques concrètes pour une vie durable, contribu
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "guide-de-vie-durable-adoptez-un-avenir-plus-vert-des-aujourdhui"
-translationSlugs: '{"en": "guide-to-sustainable-living-practices", "es": "guia-de-vida-sostenible-adopta-un-futuro-mas-verde-hoy", "it": "guida-alla-vita-sostenibile-abbraccia-un-futuro-piu-verde-oggi", "fr": "guide-de-vie-durable-adoptez-un-avenir-plus-vert-des-aujourdhui"}'
-tags: "[\"Vie Durable\", \"Pratiques \u00c9cologiques\", \"Mode de Vie Vert\", \"Sensibilisation Environnementale\", \"Action Climatique\"]"
+translationSlugs: '{"es": "guia-de-vida-sostenible-adopta-un-futuro-mas-verde-hoy", "it": "guida-alla-vita-sostenibile-abbraccia-un-futuro-piu-verde-oggi", "fr": "guide-de-vie-durable-adoptez-un-avenir-plus-vert-des-aujourdhui", "en": "guide-to-sustainable-living-practices"}'
+tags: ["Vie Durable", "Pratiques \u00c9cologiques", "Mode de Vie Vert", "Sensibilisation Environnementale", "Action Climatique"]
 heroImage: "/images/blog/guide-to-sustainable-living-practices-hero.webp"
 ---
-
 
 # Un Guide Complet des Modes de Vie Durables : Adopter un Avenir Plus Vert
 

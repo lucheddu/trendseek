@@ -5,10 +5,9 @@ pubDate: "2026-03-05"
 lang: "it"
 slug: "le-migliori-competenze-di-leadership-per-il-2026-sviluppale-per-il-successo-futuro"
 translationSlugs: '{"en": "best-2026-leadership-skills-to-develop", "es": "las-principales-habilidades-de-liderazgo-para-2026-desarrolla-para-el-exito-futuro", "it": "le-migliori-competenze-di-leadership-per-il-2026-sviluppale-per-il-successo-futuro", "fr": "les-meilleures-competences-en-leadership-pour-2026-developpez-les-pour-un-succes-futur"}'
-tags: "[\"Competenze di Leadership\", \"Futuro del Lavoro\", \"Leadership nell'IA\", \"Geopolitica\", \"Sviluppo Strategico\"]"
+tags: ["Competenze di Leadership", "Futuro del Lavoro", "Leadership nell'IA", "Geopolitica", "Sviluppo Strategico"]
 heroImage: "/images/blog/best-2026-leadership-skills-to-develop-hero.webp"
 ---
-
 
 # Navigare nel Domani: Le Migliori Competenze di Leadership per il 2026 da Sviluppare per il Successo Futuro
 

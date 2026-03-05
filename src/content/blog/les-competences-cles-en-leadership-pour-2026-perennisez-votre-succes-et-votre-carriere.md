@@ -4,11 +4,10 @@ description: "Découvrez les compétences essentielles en leadership pour 2026. 
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere"
-translationSlugs: '{"en": "top-2026-leadership-skills-future-success", "it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera"}'
-tags: "[\"Compétences en leadership\", \"Avenir du travail\", \"Tendances 2026\", \"Leadership et IA\", \"Stratégie d'entreprise\"]"
+translationSlugs: '{"it": "le-migliori-competenze-di-leadership-per-il-2026-rendi-a-prova-di-futuro-il-tuo-successo-e-la-tua-carriera", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez-votre-succes-et-votre-carriere", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu-exito-y-carrera", "en": "top-2026-leadership-skills-future-success"}'
+tags: ["Compétences en leadership", "Avenir du travail", "Tendances 2026", "Leadership et IA", "Stratégie d'entreprise"]
 heroImage: "/images/blog/top-2026-leadership-skills-future-success-hero.webp"
 ---
-
 
 # Les Meilleures Compétences en Leadership à Développer pour un Succès Durable en 2026
 

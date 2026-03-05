@@ -4,11 +4,10 @@ description: "Vous avez du mal avec la productivité en télétravail ? Découvr
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez-votre-efficacite"
-translationSlugs: '{"en": "10-productivity-hacks-remote-workers", "fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez-votre-efficacite", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti-migliora-la-tua-efficienza", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta-tu-eficiencia"}'
-tags: "[\"T\u00e9l\u00e9travail\", \"Astuces de Productivit\u00e9\", \"Travail \u00e0 Domicile\", \"Gestion du Temps\", \"\u00c9quilibre Vie Pro-Vie Perso\"]"
+translationSlugs: '{"fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez-votre-efficacite", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti-migliora-la-tua-efficienza", "en": "10-productivity-hacks-remote-workers", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta-tu-eficiencia"}'
+tags: ["T\u00e9l\u00e9travail", "Astuces de Productivit\u00e9", "Travail \u00e0 Domicile", "Gestion du Temps", "\u00c9quilibre Vie Pro-Vie Perso"]
 heroImage: "/images/blog/10-productivity-hacks-remote-workers-hero.webp"
 ---
-
 
 # Optimisez votre journée de télétravail : 10 astuces de productivité pour les télétravailleurs
 

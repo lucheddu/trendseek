@@ -4,11 +4,10 @@ description: "Découvrez comment l'informatique quantique est sur le point de r�
 pubDate: "2026-03-04"
 lang: "fr"
 slug: "le-saut-quantique-decrypter-limpact-de-linformatique-quantique-sur-la-cybersecurite"
-translationSlugs: '{"en": "quantum-computing-impact-cybersecurity", "es": "el-salto-cuantico-desentranando-el-impacto-de-la-computacion-cuantica-en-la-ciberseguridad", "it": "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla-sicurezza-informatica", "fr": "le-saut-quantique-decrypter-limpact-de-linformatique-quantique-sur-la-cybersecurite"}'
-tags: "[\"Informatique Quantique\", \"Cybers\u00e9curit\u00e9\", \"Science\", \"G\u00e9opolitique\", \"\u00c9conomie\"]"
+translationSlugs: '{"es": "el-salto-cuantico-desentranando-el-impacto-de-la-computacion-cuantica-en-la-ciberseguridad", "it": "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla-sicurezza-informatica", "fr": "le-saut-quantique-decrypter-limpact-de-linformatique-quantique-sur-la-cybersecurite", "en": "quantum-computing-impact-cybersecurity"}'
+tags: ["Informatique Quantique", "Cybers\u00e9curit\u00e9", "Science", "G\u00e9opolitique", "\u00c9conomie"]
 heroImage: "/images/blog/quantum-computing-impact-cybersecurity-hero.webp"
 ---
-
 
 # Le saut quantique : Décrypter l'impact de l'informatique quantique sur la cybersécurité
 

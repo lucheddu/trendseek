@@ -3,12 +3,11 @@ title: "Comment Gagner de l'Argent avec les Covered Calls: Le Guide Complet"
 description: "Apprenez la stratégie des covered calls étape par étape pour générer des revenus mensuels réguliers de votre portefeuille boursier."
 pubDate: "2026-03-04"
 lang: "fr"
-slug: "comment-gagner-de-largent-avec-les-covered-calls-le-guide-complet"
-translationSlugs: '{"it": "come-guadagnare-con-le-covered-call-la-guida-completa", "fr": "comment-gagner-de-largent-avec-les-covered-calls-le-guide-complet", "es": "como-ganar-dinero-con-covered-calls-la-guia-completa", "en": "how-to-make-money-with-covered-calls"}'
+slug: "comment-gagner-argent-avec-covered-calls"
+translationSlugs: '{"en": "how-to-make-money-with-covered-calls", "it": "come-fare-soldi-con-le-covered-call", "es": "como-ganar-dinero-con-covered-calls-la-guia-completa", "fr": "comment-gagner-argent-avec-covered-calls"}'
 tags: ["finance", "investissement", "options", "revenus", "bourse"]
 heroImage: "/images/blog/covered-calls-hero.webp"
 ---
-
 
 # Comment générer des revenus avec les calls couverts : Un guide complet pour la génération de revenus
 
