@@ -1,10 +1,10 @@
 ---
-title: "The Quantum Leap: Unpacking Quantum Computing's Impact on Cybersecurity"
-description: "Explore how quantum computing is poised to revolutionize cybersecurity, challenging current encryption methods and impacting global communication, commerce, and national security."
+title: 'The Quantum Leap: Unpacking Quantum Computing's Impact on Cybersecurity'
+description: 'Explore how quantum computing is poised to revolutionize cybersecurity, challenging current encryption methods and impacting global communication, commerce, and national security.'
 pubDate: "2026-03-04"
 lang: "en"
 slug: "quantum-computing-impact-cybersecurity"
-translationSlugs: '{"en": "quantum-computing-impact-cybersecurity", "it": "quantum-computing-impact-cybersecurity-it", "es": "quantum-computing-impact-cybersecurity-es", "fr": "quantum-computing-impact-cybersecurity-fr"}'
+translationSlugs: '{"en": "quantum-computing-impact-cybersecurity", "it": "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla", "es": "el-salto-cuantico-desentranando-el-impacto-de-la", "fr": "le-saut-quantique-decrypter-limpact-de-linformatique-quantique"}'
 tags: ["Quantum Computing", "Cybersecurity", "Science", "Geopolitics", "Economy"]
 heroImage: "/images/blog/quantum-computing-impact-cybersecurity-hero.webp"
 ---

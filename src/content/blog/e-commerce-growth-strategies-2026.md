@@ -1,10 +1,10 @@
 ---
-title: "Future-Proofing E-commerce: Growth Strategies for 2026"
-description: "Discover essential e-commerce growth strategies for 2026. Learn how to navigate the evolving digital marketplace, leverage technological advancements, and ensure your business thrives in the future."
+title: 'Future-Proofing E-commerce: Growth Strategies for 2026'
+description: 'Discover essential e-commerce growth strategies for 2026. Learn how to navigate the evolving digital marketplace, leverage technological advancements, and ensure your business thrives in the future.'
 pubDate: "2026-03-05"
 lang: "en"
 slug: "e-commerce-growth-strategies-2026"
-translationSlugs: '{"en": "e-commerce-growth-strategies-2026", "it": "e-commerce-growth-strategies-2026-it", "es": "e-commerce-growth-strategies-2026-es", "fr": "e-commerce-growth-strategies-2026-fr"}'
+translationSlugs: '{"en": "e-commerce-growth-strategies-2026", "it": "e-commerce-a-prova-di-futuro-strategie-di", "es": "comercio-electronico-a-prueba-de-futuro-estrategias-de", "fr": "e-commerce-a-lepreuve-du-futur-strategies-de"}'
 tags: ["e-commerce", "growth strategies", "digital transformation", "future of retail", "AI in business"]
 heroImage: "/images/blog/e-commerce-growth-strategies-2026-hero.webp"
 ---

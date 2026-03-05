@@ -1,10 +1,10 @@
 ---
-title: "Sustainable Living Guide: Embrace a Greener Future Today"
+title: 'Sustainable Living Guide: Embrace a Greener Future Today'
 description: "Discover practical sustainable living practices for a healthier planet and a more fulfilling life. This guide demystifies eco-friendly habits for everyone."
 pubDate: "2026-03-05"
 lang: "en"
 slug: "guide-to-sustainable-living-practices"
-translationSlugs: '{"en": "guide-to-sustainable-living-practices", "it": "guide-to-sustainable-living-practices-it", "es": "guide-to-sustainable-living-practices-es", "fr": "guide-to-sustainable-living-practices-fr"}'
+translationSlugs: '{"en": "guide-to-sustainable-living-practices", "it": "guida-alla-vita-sostenibile-abbraccia-un-futuro-piu", "es": "guia-de-vida-sostenible-adopta-un-futuro-mas", "fr": "guide-de-vie-durable-adoptez-un-avenir-plus"}'
 tags: ["Sustainable Living", "Eco-friendly Practices", "Green Living", "Environmental Awareness", "Climate Action"]
 heroImage: "/images/blog/guide-to-sustainable-living-practices-hero.webp"
 ---

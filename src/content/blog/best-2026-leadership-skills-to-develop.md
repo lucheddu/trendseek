@@ -1,10 +1,10 @@
 ---
-title: "Top 2026 Leadership Skills: Develop for Future Success"
-description: "Discover the essential leadership skills for 2026. Navigate technological revolutions, evolving global dynamics, and a demanding workforce to ensure future success and thrive."
+title: 'Top 2026 Leadership Skills: Develop for Future Success'
+description: 'Discover the essential leadership skills for 2026. Navigate technological revolutions, evolving global dynamics, and a demanding workforce to ensure future success and thrive.'
 pubDate: "2026-03-05"
 lang: "en"
 slug: "best-2026-leadership-skills-to-develop"
-translationSlugs: '{"en": "best-2026-leadership-skills-to-develop", "it": "best-2026-leadership-skills-to-develop-it", "es": "best-2026-leadership-skills-to-develop-es", "fr": "best-2026-leadership-skills-to-develop-fr"}'
+translationSlugs: '{"en": "best-2026-leadership-skills-to-develop", "it": "le-migliori-competenze-di-leadership-per-il-2026", "es": "las-principales-habilidades-de-liderazgo-para-2026-desarrolla", "fr": "les-meilleures-competences-en-leadership-pour-2026-developpez"}'
 tags: ["Leadership Skills", "Future of Work", "AI Leadership", "Geopolitics", "Strategic Development"]
 heroImage: "/images/blog/best-2026-leadership-skills-to-develop-hero.webp"
 ---

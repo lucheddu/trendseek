@@ -1,10 +1,10 @@
 ---
-title: "AI in Medicine: A Complete Guide to Healthcare Transformation"
-description: "Explore how Artificial Intelligence is revolutionizing medicine, from advanced diagnostics to personalized treatments. This guide unveils AI's profound impact on modern healthcare."
+title: 'AI in Medicine: A Complete Guide to Healthcare Transformation'
+description: 'Explore how Artificial Intelligence is revolutionizing medicine, from advanced diagnostics to personalized treatments. This guide unveils AI's profound impact on modern healthcare.'
 pubDate: "2026-03-04"
 lang: "en"
 slug: "ai-in-medicine-healthcare-transformation"
-translationSlugs: '{"en": "ai-in-medicine-healthcare-transformation", "it": "ai-in-medicine-healthcare-transformation-it", "es": "ai-in-medicine-healthcare-transformation-es", "fr": "ai-in-medicine-healthcare-transformation-fr"}'
+translationSlugs: '{"en": "ai-in-medicine-healthcare-transformation", "it": "lia-in-medicina-una-guida-completa-alla-trasformazione", "es": "ia-en-medicina-una-guia-completa-para-la", "fr": "lia-en-medecine-le-guide-complet-de-la"}'
 tags: ["AI", "Healthcare", "Medicine", "Science", "Technology"]
 heroImage: "/images/blog/ai-in-medicine-healthcare-transformation-hero.webp"
 ---

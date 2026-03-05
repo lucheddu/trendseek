@@ -1,10 +1,10 @@
 ---
-title: "AI & Journalism's Future: Reshaping News Reporting & Media"
-description: "Explore how artificial intelligence is profoundly reshaping journalism, from news gathering and distribution to audience consumption. Understand AI's active role in modern newsrooms and its future impact."
+title: 'AI & Journalism's Future: Reshaping News Reporting & Media'
+description: 'Explore how artificial intelligence is profoundly reshaping journalism, from news gathering and distribution to audience consumption. Understand AI's active role in modern newsrooms and its future impact.'
 pubDate: "2026-03-04"
 lang: "en"
 slug: "ai-journalism-future-news-media"
-translationSlugs: '{"en": "ai-journalism-future-news-media", "it": "ai-journalism-future-news-media-it", "es": "ai-journalism-future-news-media-es", "fr": "ai-journalism-future-news-media-fr"}'
+translationSlugs: '{"en": "ai-journalism-future-news-media", "it": "lia-e-il-futuro-del-giornalismo-rimodellare-la", "es": "la-ia-y-el-futuro-del-periodismo-remodelando", "fr": "lia-et-lavenir-du-journalisme-redefinir-le-reportage"}'
 tags: ["AI", "journalism", "media", "science", "current events"]
 heroImage: "/images/blog/ai-journalism-future-news-media-hero.webp"
 ---

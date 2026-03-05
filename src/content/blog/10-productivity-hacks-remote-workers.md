@@ -1,10 +1,10 @@
 ---
-title: "10 Productivity Hacks for Remote Workers: Boost Your Efficiency"
-description: "Struggling with remote work productivity? Discover 10 essential hacks to conquer distractions, optimize your time, and achieve a better work-life balance for remote success."
+title: '10 Productivity Hacks for Remote Workers: Boost Your Efficiency'
+description: 'Struggling with remote work productivity? Discover 10 essential hacks to conquer distractions, optimize your time, and achieve a better work-life balance for remote success.'
 pubDate: "2026-03-05"
 lang: "en"
 slug: "10-productivity-hacks-remote-workers"
-translationSlugs: '{"en": "10-productivity-hacks-remote-workers", "it": "10-productivity-hacks-remote-workers-it", "es": "10-productivity-hacks-remote-workers-es", "fr": "10-productivity-hacks-remote-workers-fr"}'
+translationSlugs: '{"en": "10-productivity-hacks-remote-workers", "it": "10-consigli-per-la-produttivita-per-lavoratori-remoti", "es": "10-trucos-de-productividad-para-trabajadores-remotos-aumenta", "fr": "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez"}'
 tags: ["Remote Work", "Productivity Hacks", "Work From Home", "Time Management", "Work-Life Balance"]
 heroImage: "/images/blog/10-productivity-hacks-remote-workers-hero.webp"
 ---
