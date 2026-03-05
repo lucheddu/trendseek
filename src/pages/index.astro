@@ -102,6 +102,12 @@ const allPosts = (await getCollection('blog')).sort(
         No results. Try a different search or tag.
       </p>
 
+      <!-- Load More -->
+      <div id="load-more-wrap" class="load-more-wrap" style="display:none">
+        <p id="shown-count" class="shown-count"></p>
+        <button id="load-more-btn" class="load-more-btn">Load More ↓</button>
+      </div>
+
       <!-- Mid ad slot -->
       <div class="ad-slot ad-slot--in-article" style="margin-top:3rem">
         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="3975155282" data-ad-format="fluid" data-ad-layout="in-article"></ins>
@@ -114,6 +120,33 @@ const allPosts = (await getCollection('blog')).sort(
 </html>
 
 <style>
+  /* ── Load More ─────────────────────────────────────────────────────── */
+  .load-more-wrap {
+    text-align: center;
+    padding: 2rem 0 0.5rem;
+  }
+  .shown-count {
+    font-size: 0.85rem;
+    color: rgb(var(--gray));
+    margin-bottom: 0.75rem;
+  }
+  .load-more-btn {
+    background: linear-gradient(135deg, var(--accent, #625ffd), #8b5cf6);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2.5rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 15px rgba(98, 95, 253, 0.3);
+  }
+  .load-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(98, 95, 253, 0.45);
+  }
+
   /* ── Hero ────────────────────────────────────────────────────────────── */
   .hero {
     padding: 2.5rem 0 2rem;
@@ -410,12 +443,17 @@ const allPosts = (await getCollection('blog')).sort(
     }
   }
 
+  // ── Pagination ─────────────────────────────────────────────────────────────
+  const PAGE_SIZE = 12;
+  let visibleLimit = PAGE_SIZE;
+
   // ── Master filter ──────────────────────────────────────────────────────────
   function applyFilters() {
     const cards = document.querySelectorAll<HTMLElement>('.card');
-    let shown = 0;
     const q = searchQuery.trim().toLowerCase();
 
+    // First pass: determine which cards match filters
+    const matchingCards: HTMLElement[] = [];
     cards.forEach(card => {
       const langOk = card.dataset.lang === activeLang;
       const tagOk  = activeTag === '__all__'
@@ -425,13 +463,38 @@ const allPosts = (await getCollection('blog')).sort(
         || (card.dataset.desc  ?? '').includes(q)
         || (card.dataset.tags  ?? '').includes(q);
 
-      const visible = langOk && tagOk && textOk;
-      card.style.display = visible ? '' : 'none';
-      if (visible) shown++;
+      if (langOk && tagOk && textOk) {
+        matchingCards.push(card);
+      } else {
+        card.style.display = 'none';
+      }
     });
 
+    // Second pass: show only up to visibleLimit
+    matchingCards.forEach((card, i) => {
+      card.style.display = i < visibleLimit ? '' : 'none';
+    });
+
+    const totalMatching = matchingCards.length;
+    const currentlyShown = Math.min(visibleLimit, totalMatching);
+
+    // No results
     const noEl = document.getElementById('no-results');
-    if (noEl) noEl.style.display = shown === 0 ? '' : 'none';
+    if (noEl) noEl.style.display = totalMatching === 0 ? '' : 'none';
+
+    // Load More button
+    const loadMoreWrap = document.getElementById('load-more-wrap');
+    const shownCount = document.getElementById('shown-count');
+    if (loadMoreWrap) {
+      loadMoreWrap.style.display = totalMatching > PAGE_SIZE ? '' : 'none';
+    }
+    if (shownCount) {
+      shownCount.textContent = `Showing ${currentlyShown} of ${totalMatching} articles`;
+    }
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    if (loadMoreBtn) {
+      loadMoreBtn.style.display = currentlyShown >= totalMatching ? 'none' : '';
+    }
   }
 
   // ── Search input ───────────────────────────────────────────────────────────
@@ -441,12 +504,14 @@ const allPosts = (await getCollection('blog')).sort(
   searchInput?.addEventListener('input', () => {
     searchQuery = searchInput!.value;
     if (clearBtn) clearBtn.style.display = searchQuery ? '' : 'none';
+    visibleLimit = PAGE_SIZE;
     applyFilters();
   });
   clearBtn?.addEventListener('click', () => {
     if (searchInput) searchInput.value = '';
     searchQuery = '';
     if (clearBtn) clearBtn.style.display = 'none';
+    visibleLimit = PAGE_SIZE;
     applyFilters();
   });
 
@@ -457,6 +522,13 @@ const allPosts = (await getCollection('blog')).sort(
     document.querySelectorAll('.tag-pill').forEach(p => p.classList.remove('active'));
     pill.classList.add('active');
     activeTag = pill.dataset.tag ?? '__all__';
+    visibleLimit = PAGE_SIZE;
+    applyFilters();
+  });
+
+  // ── Load More button ─────────────────────────────────────────────────────────
+  document.getElementById('load-more-btn')?.addEventListener('click', () => {
+    visibleLimit += PAGE_SIZE;
     applyFilters();
   });
 
