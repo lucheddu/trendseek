@@ -4,6 +4,7 @@ description: "Learn the essential strategies for bootstrapping your business and
 pubDate: "2026-03-04"
 lang: "en"
 heroImage: "/images/blog/bootstrapping-hero.webp"
+translationSlugs: '{"en": "bootstrapping-guide-en", "it": "bootstrapping-guide-it", "es": "bootstrapping-guide-es", "fr": "strategies-indispensables-pour-demarrer-une-entreprise-sans-financement-externe-et-acquerir-les-premiers-clients"}'
 tags: ['entrepreneurship', 'startup', 'business', 'bootstrapping', 'clients']
 ---
 

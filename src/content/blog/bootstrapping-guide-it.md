@@ -4,6 +4,7 @@ description: "Scopri le strategie essenziali per avviare la tua azienda in boots
 pubDate: "2026-03-04"
 lang: "it"
 heroImage: "/images/blog/bootstrapping-hero.webp"
+translationSlugs: '{"en": "bootstrapping-guide-en", "it": "bootstrapping-guide-it", "es": "bootstrapping-guide-es", "fr": "strategies-indispensables-pour-demarrer-une-entreprise-sans-financement-externe-et-acquerir-les-premiers-clients"}'
 tags: ['imprenditoria', 'startup', 'business', 'bootstrapping', 'clienti']
 ---
 

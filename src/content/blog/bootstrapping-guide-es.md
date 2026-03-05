@@ -4,6 +4,7 @@ description: "Aprende las estrategias esenciales para arrancar tu negocio con bo
 pubDate: "2026-03-04"
 lang: "es"
 heroImage: "/images/blog/bootstrapping-hero.webp"
+translationSlugs: '{"en": "bootstrapping-guide-en", "it": "bootstrapping-guide-it", "es": "bootstrapping-guide-es", "fr": "strategies-indispensables-pour-demarrer-une-entreprise-sans-financement-externe-et-acquerir-les-premiers-clients"}'
 tags: ['emprendimiento', 'startup', 'negocio', 'bootstrapping', 'clientes']
 ---
 
