@@ -1,6 +1,6 @@
 ---
-title: 'AI & Journalism's Future: Reshaping News Reporting & Media'
-description: 'Explore how artificial intelligence is profoundly reshaping journalism, from news gathering and distribution to audience consumption. Understand AI's active role in modern newsrooms and its future impact.'
+title: "AI & Journalism's Future: Reshaping News Reporting & Media"
+description: "Explore how artificial intelligence is profoundly reshaping journalism, from news gathering and distribution to audience consumption. Understand AI's active role in modern newsrooms and its future impact."
 pubDate: "2026-03-04"
 lang: "en"
 slug: "ai-journalism-future-news-media"

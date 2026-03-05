@@ -1,6 +1,6 @@
 ---
-title: 'L'IA en médecine : Le guide complet de la transformation des soins de santé'
-description: 'Découvrez comment l'intelligence artificielle révolutionne la médecine, des diagnostics avancés aux traitements personnalisés. Ce guide révèle l'impact profond de l'IA sur les soins de santé modernes.'
+title: "L'IA en médecine : Le guide complet de la transformation des soins de santé"
+description: "Découvrez comment l'intelligence artificielle révolutionne la médecine, des diagnostics avancés aux traitements personnalisés. Ce guide révèle l'impact profond de l'IA sur les soins de santé modernes."
 pubDate: "2026-03-04"
 lang: "fr"
 slug: "lia-en-medecine-le-guide-complet-de-la"

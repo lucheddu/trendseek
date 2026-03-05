@@ -1,6 +1,6 @@
 ---
-title: 'Innovazioni tecnologiche nel fitness 2026: Plasmare gli allenamenti di domani'
-description: 'Esplora le innovative tecnologie fitness del 2026 all'avanguardia che stanno trasformando gli allenamenti. Scopri come l'IA, la biometria avanzata e le esperienze digitali immersive rivoluzioneranno l'allenamento, il recupero e la comprensione del corpo.'
+title: "Innovazioni tecnologiche nel fitness 2026: Plasmare gli allenamenti di domani"
+description: "Esplora le innovative tecnologie fitness del 2026 all'avanguardia che stanno trasformando gli allenamenti. Scopri come l'IA, la biometria avanzata e le esperienze digitali immersive rivoluzioneranno l'allenamento, il recupero e la comprensione del corpo."
 pubDate: "2026-03-05"
 lang: "it"
 slug: "innovazioni-tecnologiche-nel-fitness-2026-plasmare-gli-allenamenti"

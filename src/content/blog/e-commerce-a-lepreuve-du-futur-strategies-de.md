@@ -1,6 +1,6 @@
 ---
-title: 'E-commerce à l'épreuve du futur : Stratégies de croissance pour 2026'
-description: 'Découvrez les stratégies de croissance essentielles pour l'e-commerce en 2026. Apprenez à naviguer sur le marché numérique en constante évolution, à tirer parti des avancées technologiques et à assurer la prospérité de votre entreprise à l'avenir.'
+title: "E-commerce à l'épreuve du futur : Stratégies de croissance pour 2026"
+description: "Découvrez les stratégies de croissance essentielles pour l'e-commerce en 2026. Apprenez à naviguer sur le marché numérique en constante évolution, à tirer parti des avancées technologiques et à assurer la prospérité de votre entreprise à l'avenir."
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "e-commerce-a-lepreuve-du-futur-strategies-de"

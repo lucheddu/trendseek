@@ -1,6 +1,6 @@
 ---
-title: 'Il Salto Quantico: Esplorando l'Impatto dell'Informatica Quantistica sulla Sicurezza Informatica'
-description: 'Esplora come l'informatica quantistica sia pronta a rivoluzionare la sicurezza informatica, sfidando gli attuali metodi di crittografia e influenzando la comunicazione globale, il commercio e la sicurezza nazionale.'
+title: "Il Salto Quantico: Esplorando l'Impatto dell'Informatica Quantistica sulla Sicurezza Informatica"
+description: "Esplora come l'informatica quantistica sia pronta a rivoluzionare la sicurezza informatica, sfidando gli attuali metodi di crittografia e influenzando la comunicazione globale, il commercio e la sicurezza nazionale."
 pubDate: "2026-03-04"
 lang: "it"
 slug: "il-salto-quantico-esplorando-limpatto-dellinformatica-quantistica-sulla"

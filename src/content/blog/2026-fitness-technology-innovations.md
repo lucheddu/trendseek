@@ -1,6 +1,6 @@
 ---
-title: '2026 Fitness Technology Innovations: Shaping Tomorrow's Workouts'
-description: 'Explore the cutting-edge 2026 fitness technology innovations transforming workouts. Discover how AI, advanced biometrics, and immersive digital experiences will revolutionize training, recovery, and body understanding.'
+title: "2026 Fitness Technology Innovations: Shaping Tomorrow's Workouts"
+description: "Explore the cutting-edge 2026 fitness technology innovations transforming workouts. Discover how AI, advanced biometrics, and immersive digital experiences will revolutionize training, recovery, and body understanding."
 pubDate: "2026-03-05"
 lang: "en"
 slug: "2026-fitness-technology-innovations"

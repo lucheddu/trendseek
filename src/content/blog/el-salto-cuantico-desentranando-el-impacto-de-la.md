@@ -1,6 +1,6 @@
 ---
-title: 'El Salto Cuántico: Desentrañando el Impacto de la Computación Cuántica en la Ciberseguridad'
-description: 'Explore cómo la computación cuántica está a punto de revolucionar la ciberseguridad, desafiando los métodos de cifrado actuales e impactando la comunicación global, el comercio y la seguridad nacional.'
+title: "El Salto Cuántico: Desentrañando el Impacto de la Computación Cuántica en la Ciberseguridad"
+description: "Explore cómo la computación cuántica está a punto de revolucionar la ciberseguridad, desafiando los métodos de cifrado actuales e impactando la comunicación global, el comercio y la seguridad nacional."
 pubDate: "2026-03-04"
 lang: "es"
 slug: "el-salto-cuantico-desentranando-el-impacto-de-la"

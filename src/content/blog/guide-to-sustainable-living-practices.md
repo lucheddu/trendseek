@@ -1,5 +1,5 @@
 ---
-title: 'Sustainable Living Guide: Embrace a Greener Future Today'
+title: "Sustainable Living Guide: Embrace a Greener Future Today"
 description: "Discover practical sustainable living practices for a healthier planet and a more fulfilling life. This guide demystifies eco-friendly habits for everyone."
 pubDate: "2026-03-05"
 lang: "en"

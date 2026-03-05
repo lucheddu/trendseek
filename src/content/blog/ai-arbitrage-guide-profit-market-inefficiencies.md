@@ -1,6 +1,6 @@
 ---
-title: 'AI Arbitrage: Unlocking Profit & Capitalizing on Market Inefficiencies'
-description: 'Explore AI arbitrage, a powerful strategy leveraging artificial intelligence to identify and capitalize on market inefficiencies. This guide reveals how AI creates new wealth avenues.'
+title: "AI Arbitrage: Unlocking Profit & Capitalizing on Market Inefficiencies"
+description: "Explore AI arbitrage, a powerful strategy leveraging artificial intelligence to identify and capitalize on market inefficiencies. This guide reveals how AI creates new wealth avenues."
 pubDate: "2026-03-04"
 lang: "en"
 slug: "ai-arbitrage-guide-profit-market-inefficiencies"

@@ -1,6 +1,6 @@
 ---
-title: '10 Astuces de Productivité pour les Télétravailleurs : Améliorez Votre Efficacité'
-description: 'Vous avez du mal avec la productivité en télétravail ? Découvrez 10 astuces essentielles pour vaincre les distractions, optimiser votre temps et atteindre un meilleur équilibre vie pro/vie perso pour un télétravail réussi.'
+title: "10 Astuces de Productivité pour les Télétravailleurs : Améliorez Votre Efficacité"
+description: "Vous avez du mal avec la productivité en télétravail ? Découvrez 10 astuces essentielles pour vaincre les distractions, optimiser votre temps et atteindre un meilleur équilibre vie pro/vie perso pour un télétravail réussi."
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "10-astuces-de-productivite-pour-les-teletravailleurs-ameliorez"

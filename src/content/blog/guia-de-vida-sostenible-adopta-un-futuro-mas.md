@@ -1,5 +1,5 @@
 ---
-title: 'Guía de Vida Sostenible: Adopta un Futuro Más Verde Hoy'
+title: "Guía de Vida Sostenible: Adopta un Futuro Más Verde Hoy"
 description: "Descubre prácticas de vida sostenible para un planeta más saludable y una vida más plena. Esta guía desmitifica los hábitos ecológicos para todos."
 pubDate: "2026-03-05"
 lang: "es"

@@ -1,6 +1,6 @@
 ---
-title: 'Le Saut Quantique : Décrypter l'impact de l'informatique quantique sur la cybersécurité'
-description: 'Découvrez comment l'informatique quantique est sur le point de révolutionner la cybersécurité, en mettant au défi les méthodes de chiffrement actuelles et en impactant la communication mondiale, le commerce et la sécurité nationale.'
+title: "Le Saut Quantique : Décrypter l'impact de l'informatique quantique sur la cybersécurité"
+description: "Découvrez comment l'informatique quantique est sur le point de révolutionner la cybersécurité, en mettant au défi les méthodes de chiffrement actuelles et en impactant la communication mondiale, le commerce et la sécurité nationale."
 pubDate: "2026-03-04"
 lang: "fr"
 slug: "le-saut-quantique-decrypter-limpact-de-linformatique-quantique"

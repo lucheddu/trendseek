@@ -1,6 +1,6 @@
 ---
-title: 'L'IA et l'avenir du journalisme : Redéfinir le reportage et les médias'
-description: 'Découvrez comment l'intelligence artificielle transforme en profondeur le journalisme, de la collecte et de la diffusion de l'information à la consommation par le public. Comprenez le rôle actif de l'IA dans les rédactions modernes et son impact futur.'
+title: "L'IA et l'avenir du journalisme : Redéfinir le reportage et les médias"
+description: "Découvrez comment l'intelligence artificielle transforme en profondeur le journalisme, de la collecte et de la diffusion de l'information à la consommation par le public. Comprenez le rôle actif de l'IA dans les rédactions modernes et son impact futur."
 pubDate: "2026-03-04"
 lang: "fr"
 slug: "lia-et-lavenir-du-journalisme-redefinir-le-reportage"

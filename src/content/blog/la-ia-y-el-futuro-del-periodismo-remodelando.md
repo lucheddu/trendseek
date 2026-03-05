@@ -1,6 +1,6 @@
 ---
-title: 'La IA y el Futuro del Periodismo: Remodelando la Información y los Medios de Comunicación'
-description: 'Explore cómo la inteligencia artificial está transformando profundamente el periodismo, desde la recopilación y distribución de noticias hasta el consumo por parte de la audiencia. Comprenda el papel activo de la IA en las redacciones modernas y su impacto futuro.'
+title: "La IA y el Futuro del Periodismo: Remodelando la Información y los Medios de Comunicación"
+description: "Explore cómo la inteligencia artificial está transformando profundamente el periodismo, desde la recopilación y distribución de noticias hasta el consumo por parte de la audiencia. Comprenda el papel activo de la IA en las redacciones modernas y su impacto futuro."
 pubDate: "2026-03-04"
 lang: "es"
 slug: "la-ia-y-el-futuro-del-periodismo-remodelando"

@@ -1,6 +1,6 @@
 ---
-title: 'Las principales habilidades de liderazgo para 2026: Desarrolla para el éxito futuro'
-description: 'Descubre las habilidades de liderazgo esenciales para 2026. Navega las revoluciones tecnológicas, las dinámicas globales en evolución y una fuerza laboral exigente para asegurar el éxito futuro y prosperar.'
+title: "Las principales habilidades de liderazgo para 2026: Desarrolla para el éxito futuro"
+description: "Descubre las habilidades de liderazgo esenciales para 2026. Navega las revoluciones tecnológicas, las dinámicas globales en evolución y una fuerza laboral exigente para asegurar el éxito futuro y prosperar."
 pubDate: "2026-03-05"
 lang: "es"
 slug: "las-principales-habilidades-de-liderazgo-para-2026-desarrolla"

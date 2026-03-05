@@ -1,6 +1,6 @@
 ---
-title: '10 Productivity Hacks for Remote Workers: Boost Your Efficiency'
-description: 'Struggling with remote work productivity? Discover 10 essential hacks to conquer distractions, optimize your time, and achieve a better work-life balance for remote success.'
+title: "10 Productivity Hacks for Remote Workers: Boost Your Efficiency"
+description: "Struggling with remote work productivity? Discover 10 essential hacks to conquer distractions, optimize your time, and achieve a better work-life balance for remote success."
 pubDate: "2026-03-05"
 lang: "en"
 slug: "10-productivity-hacks-remote-workers"

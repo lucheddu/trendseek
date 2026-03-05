@@ -1,6 +1,6 @@
 ---
-title: 'Innovaciones Tecnológicas en Fitness 2026: Dando Forma a los Entrenamientos del Mañana'
-description: 'Explora las innovaciones tecnológicas de vanguardia en fitness para 2026 que están transformando los entrenamientos. Descubre cómo la IA, la biometría avanzada y las experiencias digitales inmersivas revolucionarán el entrenamiento, la recuperación y la comprensión del cuerpo.'
+title: "Innovaciones Tecnológicas en Fitness 2026: Dando Forma a los Entrenamientos del Mañana"
+description: "Explora las innovaciones tecnológicas de vanguardia en fitness para 2026 que están transformando los entrenamientos. Descubre cómo la IA, la biometría avanzada y las experiencias digitales inmersivas revolucionarán el entrenamiento, la recuperación y la comprensión del cuerpo."
 pubDate: "2026-03-05"
 lang: "es"
 slug: "innovaciones-tecnologicas-en-fitness-2026-dando-forma-a"

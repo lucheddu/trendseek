@@ -1,6 +1,6 @@
 ---
-title: 'Guide de Vie Durable : Adoptez un Avenir Plus Vert Dès Aujourd'hui'
-description: 'Découvrez des pratiques concrètes pour une vie durable, contribuant à une planète plus saine et à une existence plus épanouissante. Ce guide démystifie les habitudes écologiques pour tous.'
+title: "Guide de Vie Durable : Adoptez un Avenir Plus Vert Dès Aujourd'hui"
+description: "Découvrez des pratiques concrètes pour une vie durable, contribuant à une planète plus saine et à une existence plus épanouissante. Ce guide démystifie les habitudes écologiques pour tous."
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "guide-de-vie-durable-adoptez-un-avenir-plus"

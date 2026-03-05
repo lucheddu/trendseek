@@ -1,9 +1,9 @@
 ---
-title: 'Strategie Essenziali per il Bootstrapping e Trovare i Primi Clienti'
-description: 'Scopri le strategie essenziali per avviare la tua azienda in bootstrapping e trovare i primi clienti in modo efficace.'
-pubDate: '2026-03-04'
-lang: 'it'
-heroImage: '/images/blog/bootstrapping-hero.webp'
+title: "Strategie Essenziali per il Bootstrapping e Trovare i Primi Clienti"
+description: "Scopri le strategie essenziali per avviare la tua azienda in bootstrapping e trovare i primi clienti in modo efficace."
+pubDate: "2026-03-04"
+lang: "it"
+heroImage: "/images/blog/bootstrapping-hero.webp"
 tags: ['imprenditoria', 'startup', 'business', 'bootstrapping', 'clienti']
 ---
 

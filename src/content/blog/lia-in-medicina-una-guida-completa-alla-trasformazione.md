@@ -1,6 +1,6 @@
 ---
-title: 'L'IA in Medicina: Una Guida Completa alla Trasformazione Sanitaria'
-description: 'Esplora come l'Intelligenza Artificiale stia rivoluzionando la medicina, dalla diagnostica avanzata ai trattamenti personalizzati. Questa guida rivela il profondo impatto dell'IA sulla sanità moderna.'
+title: "L'IA in Medicina: Una Guida Completa alla Trasformazione Sanitaria"
+description: "Esplora come l'Intelligenza Artificiale stia rivoluzionando la medicina, dalla diagnostica avanzata ai trattamenti personalizzati. Questa guida rivela il profondo impatto dell'IA sulla sanità moderna."
 pubDate: "2026-03-04"
 lang: "it"
 slug: "lia-in-medicina-una-guida-completa-alla-trasformazione"

@@ -1,11 +1,11 @@
 ---
-title: 'Les compétences clés en leadership pour 2026 : Pérennisez votre succès et votre carrière'
-description: 'Découvrez les compétences essentielles en leadership pour 2026. Naviguez à travers les évolutions technologiques, le travail hybride et les incertitudes mondiales afin de pérenniser votre carrière et de diriger efficacement dans un monde en transformation.'
+title: "Les compétences clés en leadership pour 2026 : Pérennisez votre succès et votre carrière"
+description: "Découvrez les compétences essentielles en leadership pour 2026. Naviguez à travers les évolutions technologiques, le travail hybride et les incertitudes mondiales afin de pérenniser votre carrière et de diriger efficacement dans un monde en transformation."
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "les-competences-cles-en-leadership-pour-2026-perennisez"
 translationSlugs: '{"en": "top-2026-leadership-skills-future-success", "it": "le-migliori-competenze-di-leadership-per-il-2026-it", "es": "principales-habilidades-de-liderazgo-para-2026-blinda-tu", "fr": "les-competences-cles-en-leadership-pour-2026-perennisez"}'
-tags: '["Compétences en leadership", "Avenir du travail", "Tendances 2026", "Leadership et IA", "Stratégie d'entreprise"]'
+tags: ["Compétences en leadership", "Avenir du travail", "Tendances 2026", "Leadership et IA", "Stratégie d'entreprise"]
 heroImage: "/images/blog/top-2026-leadership-skills-future-success-hero.webp"
 ---
 

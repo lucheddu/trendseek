@@ -1,6 +1,6 @@
 ---
-title: 'Comercio electrónico a prueba de futuro: Estrategias de crecimiento para 2026'
-description: 'Descubre estrategias esenciales de crecimiento para el comercio electrónico en 2026. Aprende a navegar por el cambiante mercado digital, aprovechar los avances tecnológicos y asegurar que tu negocio prospere en el futuro.'
+title: "Comercio electrónico a prueba de futuro: Estrategias de crecimiento para 2026"
+description: "Descubre estrategias esenciales de crecimiento para el comercio electrónico en 2026. Aprende a navegar por el cambiante mercado digital, aprovechar los avances tecnológicos y asegurar que tu negocio prospere en el futuro."
 pubDate: "2026-03-05"
 lang: "es"
 slug: "comercio-electronico-a-prueba-de-futuro-estrategias-de"

@@ -1,6 +1,6 @@
 ---
-title: 'L'avenir des protocoles DeFi : Naviguer dans la révolution financière du Web3'
-description: 'Explorez l'avenir des protocoles de Finance Décentralisée (DeFi) et la révolution financière du Web3. Comprenez comment l'innovation blockchain redéfinit la monnaie, le crédit et les actifs.'
+title: "L'avenir des protocoles DeFi : Naviguer dans la révolution financière du Web3"
+description: "Explorez l'avenir des protocoles de Finance Décentralisée (DeFi) et la révolution financière du Web3. Comprenez comment l'innovation blockchain redéfinit la monnaie, le crédit et les actifs."
 pubDate: "2026-03-04"
 lang: "fr"
 slug: "lavenir-des-protocoles-defi-naviguer-dans-la-revolution"

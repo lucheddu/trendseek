@@ -1,6 +1,6 @@
 ---
-title: 'Top 2026 Leadership Skills: Develop for Future Success'
-description: 'Discover the essential leadership skills for 2026. Navigate technological revolutions, evolving global dynamics, and a demanding workforce to ensure future success and thrive.'
+title: "Top 2026 Leadership Skills: Develop for Future Success"
+description: "Discover the essential leadership skills for 2026. Navigate technological revolutions, evolving global dynamics, and a demanding workforce to ensure future success and thrive."
 pubDate: "2026-03-05"
 lang: "en"
 slug: "best-2026-leadership-skills-to-develop"

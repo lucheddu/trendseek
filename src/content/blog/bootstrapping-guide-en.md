@@ -1,9 +1,9 @@
 ---
-title: 'Essential Strategies for Bootstrapping and Finding Initial Clients'
-description: 'Learn the essential strategies for bootstrapping your business and finding initial clients effectively. A comprehensive guide for early-stage entrepreneurs.'
-pubDate: '2026-03-04'
-lang: 'en'
-heroImage: '/images/blog/bootstrapping-hero.webp'
+title: "Essential Strategies for Bootstrapping and Finding Initial Clients"
+description: "Learn the essential strategies for bootstrapping your business and finding initial clients effectively. A comprehensive guide for early-stage entrepreneurs."
+pubDate: "2026-03-04"
+lang: "en"
+heroImage: "/images/blog/bootstrapping-hero.webp"
 tags: ['entrepreneurship', 'startup', 'business', 'bootstrapping', 'clients']
 ---
 

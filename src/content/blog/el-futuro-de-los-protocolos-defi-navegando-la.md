@@ -1,6 +1,6 @@
 ---
-title: 'El Futuro de los Protocolos DeFi: Navegando la Revolución Financiera de Web3'
-description: 'Explore el futuro de los protocolos de Finanzas Descentralizadas (DeFi) y la revolución financiera de Web3. Comprenda cómo la innovación blockchain está redefiniendo el dinero, el crédito y los activos.'
+title: "El Futuro de los Protocolos DeFi: Navegando la Revolución Financiera de Web3"
+description: "Explore el futuro de los protocolos de Finanzas Descentralizadas (DeFi) y la revolución financiera de Web3. Comprenda cómo la innovación blockchain está redefiniendo el dinero, el crédito y los activos."
 pubDate: "2026-03-04"
 lang: "es"
 slug: "el-futuro-de-los-protocolos-defi-navegando-la"

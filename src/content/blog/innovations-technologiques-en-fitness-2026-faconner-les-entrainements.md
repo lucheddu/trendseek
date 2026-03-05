@@ -1,6 +1,6 @@
 ---
-title: 'Innovations technologiques en fitness 2026 : Façonner les entraînements de demain'
-description: 'Explorez les innovations technologiques de pointe en fitness pour 2026 qui transforment les entraînements. Découvrez comment l'IA, la biométrie avancée et les expériences numériques immersives vont révolutionner l'entraînement, la récupération et la compréhension du corps.'
+title: "Innovations technologiques en fitness 2026 : Façonner les entraînements de demain"
+description: "Explorez les innovations technologiques de pointe en fitness pour 2026 qui transforment les entraînements. Découvrez comment l'IA, la biométrie avancée et les expériences numériques immersives vont révolutionner l'entraînement, la récupération et la compréhension du corps."
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "innovations-technologiques-en-fitness-2026-faconner-les-entrainements"

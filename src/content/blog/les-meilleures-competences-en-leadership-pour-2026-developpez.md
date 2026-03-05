@@ -1,6 +1,6 @@
 ---
-title: 'Les meilleures compétences en leadership pour 2026 : Développez-les pour un succès futur'
-description: 'Découvrez les compétences essentielles en leadership pour 2026. Naviguez à travers les révolutions technologiques, les dynamiques mondiales en évolution et une main-d'œuvre exigeante pour assurer votre succès futur et prospérer.'
+title: "Les meilleures compétences en leadership pour 2026 : Développez-les pour un succès futur"
+description: "Découvrez les compétences essentielles en leadership pour 2026. Naviguez à travers les révolutions technologiques, les dynamiques mondiales en évolution et une main-d'œuvre exigeante pour assurer votre succès futur et prospérer."
 pubDate: "2026-03-05"
 lang: "fr"
 slug: "les-meilleures-competences-en-leadership-pour-2026-developpez"

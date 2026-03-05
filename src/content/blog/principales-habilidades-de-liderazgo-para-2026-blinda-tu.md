@@ -1,6 +1,6 @@
 ---
-title: 'Principales Habilidades de Liderazgo para 2026: Blinda tu Éxito y Carrera'
-description: 'Descubre las habilidades de liderazgo esenciales para 2026. Navega los cambios tecnológicos, el trabajo híbrido y las incertidumbres globales para blindar tu carrera y liderar eficazmente en un mundo en transformación.'
+title: "Principales Habilidades de Liderazgo para 2026: Blinda tu Éxito y Carrera"
+description: "Descubre las habilidades de liderazgo esenciales para 2026. Navega los cambios tecnológicos, el trabajo híbrido y las incertidumbres globales para blindar tu carrera y liderar eficazmente en un mundo en transformación."
 pubDate: "2026-03-05"
 lang: "es"
 slug: "principales-habilidades-de-liderazgo-para-2026-blinda-tu"

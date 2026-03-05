@@ -1,5 +1,5 @@
 ---
-title: 'Guida alla Vita Sostenibile: Abbraccia un Futuro Più Verde Oggi'
+title: "Guida alla Vita Sostenibile: Abbraccia un Futuro Più Verde Oggi"
 description: "Scopri pratiche di vita sostenibile per un pianeta più sano."
 pubDate: "2026-03-05"
 lang: "it"

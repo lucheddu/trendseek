@@ -1,6 +1,6 @@
 ---
-title: 'L'IA e il Futuro del Giornalismo: Rimodellare la Notizia e i Media'
-description: 'Esplora come l'intelligenza artificiale stia profondamente rimodellando il giornalismo, dalla raccolta e distribuzione delle notizie al consumo da parte del pubblico. Comprendi il ruolo attivo dell'IA nelle redazioni moderne e il suo impatto futuro.'
+title: "L'IA e il Futuro del Giornalismo: Rimodellare la Notizia e i Media"
+description: "Esplora come l'intelligenza artificiale stia profondamente rimodellando il giornalismo, dalla raccolta e distribuzione delle notizie al consumo da parte del pubblico. Comprendi il ruolo attivo dell'IA nelle redazioni moderne e il suo impatto futuro."
 pubDate: "2026-03-04"
 lang: "it"
 slug: "lia-e-il-futuro-del-giornalismo-rimodellare-la"

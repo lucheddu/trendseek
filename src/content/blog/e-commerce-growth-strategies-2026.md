@@ -1,6 +1,6 @@
 ---
-title: 'Future-Proofing E-commerce: Growth Strategies for 2026'
-description: 'Discover essential e-commerce growth strategies for 2026. Learn how to navigate the evolving digital marketplace, leverage technological advancements, and ensure your business thrives in the future.'
+title: "Future-Proofing E-commerce: Growth Strategies for 2026"
+description: "Discover essential e-commerce growth strategies for 2026. Learn how to navigate the evolving digital marketplace, leverage technological advancements, and ensure your business thrives in the future."
 pubDate: "2026-03-05"
 lang: "en"
 slug: "e-commerce-growth-strategies-2026"

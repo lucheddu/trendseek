@@ -1,6 +1,6 @@
 ---
-title: '10 Trucos de Productividad para Trabajadores Remotos: Aumenta tu Eficiencia'
-description: '¿Luchas con la productividad en el trabajo remoto? Descubre 10 trucos esenciales para vencer las distracciones, optimizar tu tiempo y lograr un mejor equilibrio entre vida laboral y personal para el éxito remoto.'
+title: "10 Trucos de Productividad para Trabajadores Remotos: Aumenta tu Eficiencia"
+description: "¿Luchas con la productividad en el trabajo remoto? Descubre 10 trucos esenciales para vencer las distracciones, optimizar tu tiempo y lograr un mejor equilibrio entre vida laboral y personal para el éxito remoto."
 pubDate: "2026-03-05"
 lang: "es"
 slug: "10-trucos-de-productividad-para-trabajadores-remotos-aumenta"
