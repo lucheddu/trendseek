@@ -1,10 +1,10 @@
 ---
 title: "Rothschild Dynasty: Origins, Rise, and Shaping Global Finance"
 description: "Explore the extraordinary journey of the Rothschild family, from a Frankfurt ghetto to global financial dominance. Discover their strategic vision, innovation, and lasting impact on the world's economy."
-pubDate: "2026-03-05"
+pubDate: "2026-03-04"
 lang: "en"
 slug: "rothschild-origins-rise-financial-power"
-translationSlugs: '{"en": "rothschild-origins-rise-financial-power", "it": "dinastia-rothschild-origini-ascesa-plasmare-finanza-globale", "es": "dinastia-rothschild-origenes-ascenso-y-la-conformacion-de-las-finanzas-globales", "fr": "dynastie-rothschild-origines-ascension-et-faconnement-de-la-finance-mondiale"}'
+translationSlugs: '{"en": "rothschild-origins-rise-financial-power", "it": "dinastia-rothschild-origini-ascesa-plasmare-la-finanza-globale", "es": "dinastia-rothschild-origenes-ascenso-configuracion-finanzas-globales", "fr": "dynastie-rothschild-origines-ascension-et-influence-sur-la-finance-mondiale"}'
 tags: ["Rothschild family", "financial history", "global finance", "economic power", "banking dynasty"]
 heroImage: "/images/blog/rothschild-origins-rise-financial-power-hero.webp"
 ---
