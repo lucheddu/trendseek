@@ -313,6 +313,8 @@ const allPosts = (await getCollection('blog')).sort(
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    max-height: 8.5rem;  /* ~4 rows of tag pills */
+    overflow: hidden;
   }
   .tag-pill {
     display: inline-flex;
