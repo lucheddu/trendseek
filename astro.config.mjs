@@ -9,6 +9,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://trendseek.net',
+  trailingSlash: 'always',
   integrations: [mdx(), sitemap()],
 
   vite: {
