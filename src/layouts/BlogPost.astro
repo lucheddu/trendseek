@@ -50,8 +50,6 @@ if (rawSlugs) {
           <h1 class="article-h1">{title}</h1>
           <div class="article-meta">
             <span class="badge">{lang.toUpperCase()}</span>
-            <FormattedDate date={pubDate} />
-            {updatedDate && <span class="updated"> · Updated <FormattedDate date={updatedDate} /></span>}
           </div>
           <p class="article-desc">{description}</p>
           <hr />

@@ -86,9 +86,6 @@ const allPosts = (await getCollection('blog')).sort(
               </h2>
               <p class="card-desc">{post.data.description}</p>
               <div class="card-footer">
-                <time datetime={post.data.pubDate.toISOString()}>
-                  {post.data.pubDate.toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' })}
-                </time>
                 <a href={`/blog/${post.id}/`} class="read-more">
                   Read Guide →
                 </a>
@@ -364,7 +361,7 @@ const allPosts = (await getCollection('blog')).sort(
       readGuide:         'Read Guide →',
       noResults:         'No results. Try a different search or tag.',
       loadMore:          'Load More ↓',
-      showingOf:         'Showing {shown} of {total} articles',
+      showingOf:         '{shown} articles shown',
     },
     it: {
       searchPlaceholder: 'Cerca articoli, argomenti, tag…',
@@ -372,7 +369,7 @@ const allPosts = (await getCollection('blog')).sort(
       readGuide:         'Leggi la Guida →',
       noResults:         'Nessun risultato. Prova una ricerca o un tag diverso.',
       loadMore:          'Carica Altri ↓',
-      showingOf:         '{shown} di {total} articoli visualizzati',
+      showingOf:         '{shown} articoli visualizzati',
     },
     es: {
       searchPlaceholder: 'Buscar artículos, temas, tags…',
@@ -380,7 +377,7 @@ const allPosts = (await getCollection('blog')).sort(
       readGuide:         'Leer Guía →',
       noResults:         'Sin resultados. Prueba con otra búsqueda o etiqueta.',
       loadMore:          'Cargar Más ↓',
-      showingOf:         'Mostrando {shown} de {total} artículos',
+      showingOf:         '{shown} artículos mostrados',
     },
     fr: {
       searchPlaceholder: 'Rechercher articles, sujets, tags…',
@@ -388,7 +385,7 @@ const allPosts = (await getCollection('blog')).sort(
       readGuide:         'Lire le Guide →',
       noResults:         'Aucun résultat. Essayez une autre recherche ou étiquette.',
       loadMore:          'Charger Plus ↓',
-      showingOf:         '{shown} sur {total} articles affichés',
+      showingOf:         '{shown} articles affichés',
     },
   };
 
