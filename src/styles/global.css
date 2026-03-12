@@ -134,6 +134,22 @@ hr {
 	display: block;
 }
 
+/* Internet photos (Wikimedia, Pexels, Pixabay) — preserve original proportions */
+.prose img.photo-real {
+	max-height: 500px;
+	height: auto;
+	object-fit: contain;
+	background: var(--bg2);
+}
+.prose .photo-caption {
+	text-align: center;
+	font-style: italic;
+	color: var(--text-muted);
+	font-size: 0.85rem;
+	margin-top: -1rem;
+	margin-bottom: 1.5rem;
+}
+
 .prose h2 {
 	padding-bottom: 0.5rem;
 	border-bottom: 2px solid var(--border);
