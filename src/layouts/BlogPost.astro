@@ -14,6 +14,12 @@ let parsedSlugs: Record<string, string> | undefined;
 if (rawSlugs) {
   try { parsedSlugs = JSON.parse(rawSlugs); } catch {}
 }
+
+// Localized "by" and date labels
+const authorLabels: Record<string, string> = {
+  en: 'By', it: 'Di', es: 'Por', fr: 'Par'
+};
+const byLabel = authorLabels[lang] || 'By';
 ---
 
 <!doctype html>
@@ -24,19 +30,9 @@ if (rawSlugs) {
   <body>
     <Header currentLang={lang} translationSlugs={parsedSlugs} />
 
-    <!-- Hero image banner -->
-    {heroImage && (
-      <div style="display:none" class="article-hero-img" id="hero-placeholder-outside"></div>
-    )}
-
     <div class="article-layout container">
       <!-- ──── Main column ──── -->
       <main class="article-main">
-        <!-- Leaderboard ad just below header -->
-        <div class="ad-slot ad-slot--leaderboard">
-          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="8985248896" data-ad-format="horizontal" data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
 
         <!-- Hero image (inside column, contextual) -->
         {heroImage && (
@@ -50,97 +46,45 @@ if (rawSlugs) {
           <h1 class="article-h1">{title}</h1>
           <div class="article-meta">
             <span class="badge">{lang.toUpperCase()}</span>
+            <span class="meta-sep">·</span>
+            <span class="author">{byLabel} <strong>TrendSeek Editorial</strong></span>
+            <span class="meta-sep">·</span>
+            <time datetime={pubDate?.toISOString()}>
+              <FormattedDate date={pubDate} />
+            </time>
+            {updatedDate && (
+              <span class="updated">
+                (Updated: <FormattedDate date={updatedDate} />)
+              </span>
+            )}
           </div>
           <p class="article-desc">{description}</p>
           <hr />
         </header>
 
-        <!-- Article body – ads injected between §§ by JS below -->
+        <!-- Article body -->
         <div class="prose" id="article-prose">
           <slot />
         </div>
 
-        <!-- Bottom ad -->
-        <div class="ad-slot ad-slot--in-article">
-          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="3975155282" data-ad-format="fluid" data-ad-layout="in-article"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <!-- Author box -->
+        <div class="author-box">
+          <img src="/images/owl-logo.png" alt="TrendSeek" class="author-avatar" />
+          <div class="author-info">
+            <strong>TrendSeek Editorial</strong>
+            <p>Our editorial team delivers in-depth, well-researched articles on the most important trends shaping our world — from technology and finance to science and history.</p>
+          </div>
         </div>
+
       </main>
 
-      <!-- ──── Sticky sidebar ──── -->
+      <!-- ──── Sidebar ──── -->
       <aside class="article-sidebar">
-        <div class="ad-slot ad-slot--sidebar">
-          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6145328348550109" data-ad-slot="3372520059" data-ad-format="vertical"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
+        <!-- Sidebar content can go here in the future -->
       </aside>
     </div>
 
     <Footer />
-
-    <!-- ──── Inject AdSense slots with proper spacing ──── -->
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const prose = document.getElementById('article-prose');
-        if (!prose) return;
-
-        const children = Array.from(prose.children);
-        const totalBlocks = children.length;
-        if (totalBlocks < 6) return; // Too short for any ads
-
-        // Strategy: insert up to 3 ads, evenly spaced through the article.
-        // Minimum gap of 4 content blocks between ads.
-        const MAX_ADS = 3;
-        const MIN_GAP = 4; // minimum content blocks between ads
-
-        // Calculate ideal insertion points: divide article into MAX_ADS+1 segments
-        const segmentSize = Math.max(MIN_GAP, Math.floor(totalBlocks / (MAX_ADS + 1)));
-        const insertPoints = [];
-
-        for (let i = 1; i <= MAX_ADS; i++) {
-          const idealIdx = i * segmentSize;
-          if (idealIdx >= totalBlocks - 2) break; // don't insert near the very end
-
-          // Find the nearest paragraph to insert after (prefer after <p>, avoid after <h1>-<h6>)
-          let bestIdx = idealIdx;
-          for (let j = idealIdx; j >= Math.max(0, idealIdx - 2); j--) {
-            if (children[j].tagName === 'P') { bestIdx = j; break; }
-          }
-          // If no paragraph found looking back, look forward
-          if (children[bestIdx].tagName !== 'P') {
-            for (let j = idealIdx + 1; j < Math.min(totalBlocks, idealIdx + 3); j++) {
-              if (children[j].tagName === 'P') { bestIdx = j; break; }
-            }
-          }
-
-          // Ensure minimum gap from previous insertion
-          if (insertPoints.length > 0 && bestIdx - insertPoints[insertPoints.length - 1] < MIN_GAP) {
-            bestIdx = insertPoints[insertPoints.length - 1] + MIN_GAP;
-            if (bestIdx >= totalBlocks - 2) break;
-          }
-
-          insertPoints.push(bestIdx);
-        }
-
-        // Insert ads in reverse order so indices don't shift
-        insertPoints.reverse().forEach(idx => {
-          const el = children[idx];
-          if (!el) return;
-          const adDiv = document.createElement('div');
-          adDiv.className = 'ad-slot ad-slot--in-article ad-inline';
-          const ins = document.createElement('ins');
-          ins.className = 'adsbygoogle';
-          ins.style.display = 'block';
-          ins.dataset.adClient = 'ca-pub-6145328348550109';
-          ins.dataset.adSlot = '3975155282';
-          ins.dataset.adFormat = 'fluid';
-          ins.dataset.adLayout = 'in-article';
-          adDiv.appendChild(ins);
-          el.after(adDiv);
-          try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
-        });
-      });
-    </script>
   </body>
 </html>
 
@@ -187,13 +131,15 @@ if (rawSlugs) {
   .article-meta {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.5rem;
     color: var(--text-muted);
     font-size: 0.85rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
   }
-  .updated { opacity: 0.7; }
+  .meta-sep { opacity: 0.4; }
+  .author { color: var(--text-muted); }
+  .updated { opacity: 0.7; font-size: 0.8rem; }
   .article-desc {
     color: var(--text-muted);
     font-size: 1rem;
@@ -202,21 +148,42 @@ if (rawSlugs) {
     margin-bottom: 1.5rem;
   }
 
-  /* Inline ads between paragraphs */
-  :global(.ad-inline) {
-    margin: 1.5rem 0 !important;
-    height: 120px !important;
-    border-radius: var(--radius);
+  /* Author box */
+  .author-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+  }
+  .author-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.05);
+  }
+  .author-info strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.95rem;
+  }
+  .author-info p {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    line-height: 1.55;
+    margin: 0;
   }
 
-  /* Sticky sidebar ad */
+  /* Sticky sidebar */
   .article-sidebar {
-    align-self: start;   /* critical: prevents grid stretch that breaks sticky */
+    align-self: start;
     position: sticky;
-    top: 96px;           /* 80px header + 16px breathing room */
+    top: 96px;
     max-height: calc(100vh - 96px);
-  }
-  .article-sidebar .ad-slot {
-    /* no need for sticky here, the parent aside is sticky */
   }
 </style>
