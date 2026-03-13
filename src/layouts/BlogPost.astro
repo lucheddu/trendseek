@@ -20,6 +20,14 @@ const authorLabels: Record<string, string> = {
   en: 'By', it: 'Di', es: 'Por', fr: 'Par'
 };
 const byLabel = authorLabels[lang] || 'By';
+
+const authorBio: Record<string, string> = {
+  en: 'Our editorial team delivers in-depth, well-researched articles on the most important trends shaping our world — from technology and finance to science and history.',
+  it: 'Il nostro team editoriale offre articoli approfonditi e ben documentati sui trend più importanti che plasmano il nostro mondo — dalla tecnologia e finanza alla scienza e alla storia.',
+  es: 'Nuestro equipo editorial ofrece artículos detallados y bien documentados sobre las tendencias más importantes que dan forma a nuestro mundo — desde tecnología y finanzas hasta ciencia e historia.',
+  fr: 'Notre équipe éditoriale propose des articles approfondis et bien documentés sur les tendances les plus importantes qui façonnent notre monde — de la technologie et la finance à la science et l\'histoire.',
+};
+const bioText = authorBio[lang] || authorBio['en'];
 ---
 
 <!doctype html>
@@ -72,7 +80,7 @@ const byLabel = authorLabels[lang] || 'By';
           <img src="/images/owl-logo.png" alt="TrendSeek" class="author-avatar" />
           <div class="author-info">
             <strong>TrendSeek Editorial</strong>
-            <p>Our editorial team delivers in-depth, well-researched articles on the most important trends shaping our world — from technology and finance to science and history.</p>
+            <p>{bioText}</p>
           </div>
         </div>
 
